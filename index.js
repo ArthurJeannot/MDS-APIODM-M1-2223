@@ -1,22 +1,54 @@
-const express = require('express');
-const mongoose = require('mongoose');
+require("dotenv").config();
 
-const peoples = require('./resources/data/peoples.json');
-
+const express = require("express");
+const mongoose = require("mongoose");
 const app = express();
 
-//Routes
-app.get('/peoples', (req,res) => {
-    res.status(200).json(peoples);
-});
-app.get('/peoples/:id', (req,res) => {    
-    const id = parseInt(req.params.id);
-    const people = peoples.find(peoples => peoples.pk === id);
-    res.status(200).json(people);
-})
+async function main() {
+  // Crée et récupère la connexion mongoose par defaut
+  mongoose
+    .connect(process.env.MONGO_URL, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    })
+    .then(() => {
+      console.log("Connection a la BDD réussi");
 
+      app.listen(process.env.PORT, () => {
+        console.log("Requêtes écouté sur le port", process.env.PORT);
+      });
+    });
+  var db = mongoose.connection;
 
+  // Notif pour les erreur de connexions
+  db.on("error", console.error.bind(console, "Erreur connexion MongoDB:"));
 
-app.listen(8080, () => {
-    console.log('Serveur : http://localhost:8080/peoples\nBDD : http://localhost:3000/'); 
-});
+  routes()
+}
+
+ function routes()
+{
+    const Peoples = require("./resources/models/peoples");
+
+  // Route pour récupérer toutes les personnes
+  app.get("/peoples", async (req, res) => {
+    try {
+      const people = await Peoples.find();
+      res.json(people);
+    } catch (err) {
+      res.status(500).json({ message: err.message });
+    }
+  });
+
+  // Route pour récupérer une personne
+  app.get("/peoples/:id", async (req, res) => {
+    try {
+      const people = await Peoples.findById(req.params.id);
+      res.json(people);
+    } catch (err) {
+      res.status(500).json({ message: err.message });
+    }
+  });
+}
+
+main();
