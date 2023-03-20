@@ -15,7 +15,7 @@
         "manufacturer": "Corellian Engineering Corporation"
     },
     "model": "resources.transport",
-    "pk": 2
+    "_id": 2
 },
 {
     "fields": {
@@ -33,7 +33,7 @@
         "manufacturer": "Kuat Drive Yards"
     },
     "model": "resources.transport",
-    "pk": 3
+    "_id": 3
 },
 {
     "fields": {
@@ -51,7 +51,7 @@
         "manufacturer": "Corellia Mining Corporation"
     },
     "model": "resources.transport",
-    "pk": 4
+    "_id": 4
 },
 {
     "fields": {
@@ -69,7 +69,7 @@
         "manufacturer": "Sienar Fleet Systems, Cyngus Spaceworks"
     },
     "model": "resources.transport",
-    "pk": 5
+    "_id": 5
 },
 {
     "fields": {
@@ -87,7 +87,7 @@
         "manufacturer": "Incom Corporation"
     },
     "model": "resources.transport",
-    "pk": 6
+    "_id": 6
 },
 {
     "fields": {
@@ -105,7 +105,7 @@
         "manufacturer": "SoroSuub Corporation"
     },
     "model": "resources.transport",
-    "pk": 7
+    "_id": 7
 },
 {
     "fields": {
@@ -123,7 +123,7 @@
         "manufacturer": "Sienar Fleet Systems"
     },
     "model": "resources.transport",
-    "pk": 8
+    "_id": 8
 },
 {
     "fields": {
@@ -141,7 +141,7 @@
         "manufacturer": "Imperial Department of Military Research, Sienar Fleet Systems"
     },
     "model": "resources.transport",
-    "pk": 9
+    "_id": 9
 },
 {
     "fields": {
@@ -159,7 +159,7 @@
         "manufacturer": "Corellian Engineering Corporation"
     },
     "model": "resources.transport",
-    "pk": 10
+    "_id": 10
 },
 {
     "fields": {
@@ -177,7 +177,7 @@
         "manufacturer": "Koensayr Manufacturing"
     },
     "model": "resources.transport",
-    "pk": 11
+    "_id": 11
 },
 {
     "fields": {
@@ -195,7 +195,7 @@
         "manufacturer": "Incom Corporation"
     },
     "model": "resources.transport",
-    "pk": 12
+    "_id": 12
 },
 {
     "fields": {
@@ -213,7 +213,7 @@
         "manufacturer": "Sienar Fleet Systems"
     },
     "model": "resources.transport",
-    "pk": 13
+    "_id": 13
 },
 {
     "fields": {
@@ -231,7 +231,7 @@
         "manufacturer": "Incom corporation"
     },
     "model": "resources.transport",
-    "pk": 14
+    "_id": 14
 },
 {
     "fields": {
@@ -249,7 +249,7 @@
         "manufacturer": "Kuat Drive Yards, Fondor Shipyards"
     },
     "model": "resources.transport",
-    "pk": 15
+    "_id": 15
 },
 {
     "fields": {
@@ -267,7 +267,7 @@
         "manufacturer": "Sienar Fleet Systems"
     },
     "model": "resources.transport",
-    "pk": 16
+    "_id": 16
 },
 {
     "fields": {
@@ -285,7 +285,7 @@
         "manufacturer": "Gallofree Yards, Inc."
     },
     "model": "resources.transport",
-    "pk": 17
+    "_id": 17
 },
 {
     "fields": {
@@ -303,7 +303,7 @@
         "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research"
     },
     "model": "resources.transport",
-    "pk": 18
+    "_id": 18
 },
 {
     "fields": {
@@ -321,7 +321,7 @@
         "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research"
     },
     "model": "resources.transport",
-    "pk": 19
+    "_id": 19
 },
 {
     "fields": {
@@ -339,7 +339,7 @@
         "manufacturer": "Bespin Motors"
     },
     "model": "resources.transport",
-    "pk": 20
+    "_id": 20
 },
 {
     "fields": {
@@ -357,7 +357,7 @@
         "manufacturer": "Kuat Systems Engineering"
     },
     "model": "resources.transport",
-    "pk": 21
+    "_id": 21
 },
 {
     "fields": {
@@ -375,7 +375,7 @@
         "manufacturer": "Sienar Fleet Systems"
     },
     "model": "resources.transport",
-    "pk": 22
+    "_id": 22
 },
 {
     "fields": {
@@ -393,7 +393,7 @@
         "manufacturer": "Kuat Drive Yards"
     },
     "model": "resources.transport",
-    "pk": 23
+    "_id": 23
 },
 {
     "fields": {
@@ -411,7 +411,7 @@
         "manufacturer": "Ubrikkian Industries Custom Vehicle Division"
     },
     "model": "resources.transport",
-    "pk": 24
+    "_id": 24
 },
 {
     "fields": {
@@ -429,7 +429,7 @@
         "manufacturer": "Ubrikkian Industries"
     },
     "model": "resources.transport",
-    "pk": 25
+    "_id": 25
 },
 {
     "fields": {
@@ -447,7 +447,7 @@
         "manufacturer": "Sienar Fleet Systems"
     },
     "model": "resources.transport",
-    "pk": 26
+    "_id": 26
 },
 {
     "fields": {
@@ -465,7 +465,7 @@
         "manufacturer": "Mon Calamari shipyards"
     },
     "model": "resources.transport",
-    "pk": 27
+    "_id": 27
 },
 {
     "fields": {
@@ -483,7 +483,7 @@
         "manufacturer": "Alliance Underground Engineering, Incom Corporation"
     },
     "model": "resources.transport",
-    "pk": 28
+    "_id": 28
 },
 {
     "fields": {
@@ -501,7 +501,7 @@
         "manufacturer": "Slayn & Korpil"
     },
     "model": "resources.transport",
-    "pk": 29
+    "_id": 29
 },
 {
     "fields": {
@@ -519,7 +519,7 @@
         "manufacturer": "Aratech Repulsor Company"
     },
     "model": "resources.transport",
-    "pk": 30
+    "_id": 30
 },
 {
     "fields": {
@@ -537,7 +537,7 @@
         "manufacturer": "Corellian Engineering Corporation"
     },
     "model": "resources.transport",
-    "pk": 31
+    "_id": 31
 },
 {
     "fields": {
@@ -555,7 +555,7 @@
         "manufacturer": "Hoersch-Kessel Drive, Inc."
     },
     "model": "resources.transport",
-    "pk": 32
+    "_id": 32
 },
 {
     "fields": {
@@ -573,7 +573,7 @@
         "manufacturer": "Haor Chall Engineering, Baktoid Armor Workshop"
     },
     "model": "resources.transport",
-    "pk": 33
+    "_id": 33
 },
 {
     "fields": {
@@ -591,7 +591,7 @@
         "manufacturer": "Baktoid Armor Workshop"
     },
     "model": "resources.transport",
-    "pk": 34
+    "_id": 34
 },
 {
     "fields": {
@@ -609,7 +609,7 @@
         "manufacturer": "Baktoid Armor Workshop"
     },
     "model": "resources.transport",
-    "pk": 35
+    "_id": 35
 },
 {
     "fields": {
@@ -627,7 +627,7 @@
         "manufacturer": "Baktoid Armor Workshop"
     },
     "model": "resources.transport",
-    "pk": 36
+    "_id": 36
 },
 {
     "fields": {
@@ -645,7 +645,7 @@
         "manufacturer": "Haor Chall Engineering"
     },
     "model": "resources.transport",
-    "pk": 37
+    "_id": 37
 },
 {
     "fields": {
@@ -663,7 +663,7 @@
         "manufacturer": "Otoh Gunga Bongameken Cooperative"
     },
     "model": "resources.transport",
-    "pk": 38
+    "_id": 38
 },
 {
     "fields": {
@@ -681,7 +681,7 @@
         "manufacturer": "Theed Palace Space Vessel Engineering Corps"
     },
     "model": "resources.transport",
-    "pk": 39
+    "_id": 39
 },
 {
     "fields": {
@@ -699,7 +699,7 @@
         "manufacturer": "Theed Palace Space Vessel Engineering Corps, Nubia Star Drives"
     },
     "model": "resources.transport",
-    "pk": 40
+    "_id": 40
 },
 {
     "fields": {
@@ -717,7 +717,7 @@
         "manufacturer": "Republic Sienar Systems"
     },
     "model": "resources.transport",
-    "pk": 41
+    "_id": 41
 },
 {
     "fields": {
@@ -735,7 +735,7 @@
         "manufacturer": "Razalon"
     },
     "model": "resources.transport",
-    "pk": 42
+    "_id": 42
 },
 {
     "fields": {
@@ -753,7 +753,7 @@
         "manufacturer": "Theed Palace Space Vessel Engineering Corps, Nubia Star Drives"
     },
     "model": "resources.transport",
-    "pk": 43
+    "_id": 43
 },
 {
     "fields": {
@@ -771,7 +771,7 @@
         "manufacturer": "Mobquet Swoops and Speeders"
     },
     "model": "resources.transport",
-    "pk": 44
+    "_id": 44
 },
 {
     "fields": {
@@ -789,7 +789,7 @@
         "manufacturer": "Desler Gizh Outworld Mobility Corporation"
     },
     "model": "resources.transport",
-    "pk": 45
+    "_id": 45
 },
 {
     "fields": {
@@ -807,7 +807,7 @@
         "manufacturer": "Narglatch AirTech prefabricated kit"
     },
     "model": "resources.transport",
-    "pk": 46
+    "_id": 46
 },
 {
     "fields": {
@@ -825,7 +825,7 @@
         "manufacturer": "Botajef Shipyards"
     },
     "model": "resources.transport",
-    "pk": 47
+    "_id": 47
 },
 {
     "fields": {
@@ -843,7 +843,7 @@
         "manufacturer": "Kuat Systems Engineering"
     },
     "model": "resources.transport",
-    "pk": 48
+    "_id": 48
 },
 {
     "fields": {
@@ -861,7 +861,7 @@
         "manufacturer": "Theed Palace Space Vessel Engineering Corps"
     },
     "model": "resources.transport",
-    "pk": 49
+    "_id": 49
 },
 {
     "fields": {
@@ -879,7 +879,7 @@
         "manufacturer": "Rothana Heavy Engineering"
     },
     "model": "resources.transport",
-    "pk": 50
+    "_id": 50
 },
 {
     "fields": {
@@ -897,7 +897,7 @@
         "manufacturer": "Rothana Heavy Engineering"
     },
     "model": "resources.transport",
-    "pk": 51
+    "_id": 51
 },
 {
     "fields": {
@@ -915,7 +915,7 @@
         "manufacturer": "Rothana Heavy Engineering"
     },
     "model": "resources.transport",
-    "pk": 52
+    "_id": 52
 },
 {
     "fields": {
@@ -933,7 +933,7 @@
         "manufacturer": "Rothana Heavy Engineering, Kuat Drive Yards"
     },
     "model": "resources.transport",
-    "pk": 53
+    "_id": 53
 },
 {
     "fields": {
@@ -951,7 +951,7 @@
         "manufacturer": "Rothana Heavy Engineering"
     },
     "model": "resources.transport",
-    "pk": 54
+    "_id": 54
 },
 {
     "fields": {
@@ -969,7 +969,7 @@
         "manufacturer": "Huppla Pasa Tisc Shipwrights Collective"
     },
     "model": "resources.transport",
-    "pk": 55
+    "_id": 55
 },
 {
     "fields": {
@@ -987,7 +987,7 @@
         "manufacturer": "Haor Chall Engineering"
     },
     "model": "resources.transport",
-    "pk": 56
+    "_id": 56
 },
 {
     "fields": {
@@ -1005,7 +1005,7 @@
         "manufacturer": "Huppla Pasa Tisc Shipwrights Collective"
     },
     "model": "resources.transport",
-    "pk": 57
+    "_id": 57
 },
 {
     "fields": {
@@ -1023,7 +1023,7 @@
         "manufacturer": "Huppla Pasa Tisc Shipwrights Collective"
     },
     "model": "resources.transport",
-    "pk": 58
+    "_id": 58
 },
 {
     "fields": {
@@ -1041,7 +1041,7 @@
         "manufacturer": "Rendili StarDrive, Free Dac Volunteers Engineering corps."
     },
     "model": "resources.transport",
-    "pk": 59
+    "_id": 59
 },
 {
     "fields": {
@@ -1059,7 +1059,7 @@
         "manufacturer": "Z-Gomot Ternbuell Guppat Corporation"
     },
     "model": "resources.transport",
-    "pk": 60
+    "_id": 60
 },
 {
     "fields": {
@@ -1077,7 +1077,7 @@
         "manufacturer": "Cygnus Spaceworks"
     },
     "model": "resources.transport",
-    "pk": 61
+    "_id": 61
 },
 {
     "fields": {
@@ -1095,7 +1095,7 @@
         "manufacturer": "unknown"
     },
     "model": "resources.transport",
-    "pk": 62
+    "_id": 62
 },
 {
     "fields": {
@@ -1113,7 +1113,7 @@
         "manufacturer": "Kuat Drive Yards, Allanteen Six shipyards"
     },
     "model": "resources.transport",
-    "pk": 63
+    "_id": 63
 },
 {
     "fields": {
@@ -1131,7 +1131,7 @@
         "manufacturer": "Theed Palace Space Vessel Engineering Corps/Nubia Star Drives, Incorporated"
     },
     "model": "resources.transport",
-    "pk": 64
+    "_id": 64
 },
 {
     "fields": {
@@ -1149,7 +1149,7 @@
         "manufacturer": "Kuat Systems Engineering"
     },
     "model": "resources.transport",
-    "pk": 65
+    "_id": 65
 },
 {
     "fields": {
@@ -1167,7 +1167,7 @@
         "manufacturer": "Incom Corporation, Subpro Corporation"
     },
     "model": "resources.transport",
-    "pk": 66
+    "_id": 66
 },
 {
     "fields": {
@@ -1185,7 +1185,7 @@
         "manufacturer": "Colla Designs, Phlac-Arphocc Automata Industries"
     },
     "model": "resources.transport",
-    "pk": 67
+    "_id": 67
 },
 {
     "fields": {
@@ -1203,7 +1203,7 @@
         "manufacturer": "Hoersch-Kessel Drive, Inc, Gwori Revolutionary Industries"
     },
     "model": "resources.transport",
-    "pk": 68
+    "_id": 68
 },
 {
     "fields": {
@@ -1221,7 +1221,7 @@
         "manufacturer": "Appazanna Engineering Works"
     },
     "model": "resources.transport",
-    "pk": 69
+    "_id": 69
 },
 {
     "fields": {
@@ -1239,7 +1239,7 @@
         "manufacturer": "Appazanna Engineering Works"
     },
     "model": "resources.transport",
-    "pk": 70
+    "_id": 70
 },
 {
     "fields": {
@@ -1257,7 +1257,7 @@
         "manufacturer": "Kuat Drive Yards"
     },
     "model": "resources.transport",
-    "pk": 71
+    "_id": 71
 },
 {
     "fields": {
@@ -1275,7 +1275,7 @@
         "manufacturer": "Techno Union"
     },
     "model": "resources.transport",
-    "pk": 72
+    "_id": 72
 },
 {
     "fields": {
@@ -1293,7 +1293,7 @@
         "manufacturer": "Baktoid Fleet Ordnance, Haor Chall Engineering"
     },
     "model": "resources.transport",
-    "pk": 73
+    "_id": 73
 },
 {
     "fields": {
@@ -1311,7 +1311,7 @@
         "manufacturer": "Feethan Ottraw Scalable Assemblies"
     },
     "model": "resources.transport",
-    "pk": 74
+    "_id": 74
 },
 {
     "fields": {
@@ -1329,7 +1329,7 @@
         "manufacturer": "Kuat Systems Engineering"
     },
     "model": "resources.transport",
-    "pk": 75
+    "_id": 75
 },
 {
     "fields": {
@@ -1347,6 +1347,6 @@
         "manufacturer": "Kuat Drive Yards"
     },
     "model": "resources.transport",
-    "pk": 76
+    "_id": 76
 }
 ]

@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 
-const peopleSchema = new mongoose.Schema(
+const peoplesSchema = new mongoose.Schema(
 {
-    pk: {
+    _id: {
         type: Number,
         required: true
     },
@@ -52,4 +52,4 @@ const peopleSchema = new mongoose.Schema(
     }
 });
 
-module.exports = mongoose.model("People", peopleSchema);
+module.exports = mongoose.model("peoples", peoplesSchema);

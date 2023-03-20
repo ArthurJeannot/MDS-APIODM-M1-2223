@@ -7,7 +7,7 @@
         "hyperdrive_rating": "2.0"
     },
     "model": "resources.starship",
-    "pk": 2
+    "_id": 2
 },
 {
     "fields": {
@@ -17,7 +17,7 @@
         "hyperdrive_rating": "2.0"
     },
     "model": "resources.starship",
-    "pk": 3
+    "_id": 3
 },
 {
     "fields": {
@@ -27,7 +27,7 @@
         "hyperdrive_rating": "1.0"
     },
     "model": "resources.starship",
-    "pk": 5
+    "_id": 5
 },
 {
     "fields": {
@@ -37,7 +37,7 @@
         "hyperdrive_rating": "4.0"
     },
     "model": "resources.starship",
-    "pk": 9
+    "_id": 9
 },
 {
     "fields": {
@@ -52,7 +52,7 @@
         "hyperdrive_rating": "0.5"
     },
     "model": "resources.starship",
-    "pk": 10
+    "_id": 10
 },
 {
     "fields": {
@@ -62,7 +62,7 @@
         "hyperdrive_rating": "1.0"
     },
     "model": "resources.starship",
-    "pk": 11
+    "_id": 11
 },
 {
     "fields": {
@@ -77,7 +77,7 @@
         "hyperdrive_rating": "1.0"
     },
     "model": "resources.starship",
-    "pk": 12
+    "_id": 12
 },
 {
     "fields": {
@@ -89,7 +89,7 @@
         "hyperdrive_rating": "1.0"
     },
     "model": "resources.starship",
-    "pk": 13
+    "_id": 13
 },
 {
     "fields": {
@@ -99,7 +99,7 @@
         "hyperdrive_rating": "2.0"
     },
     "model": "resources.starship",
-    "pk": 15
+    "_id": 15
 },
 {
     "fields": {
@@ -109,7 +109,7 @@
         "hyperdrive_rating": "4.0"
     },
     "model": "resources.starship",
-    "pk": 17
+    "_id": 17
 },
 {
     "fields": {
@@ -121,7 +121,7 @@
         "hyperdrive_rating": "3.0"
     },
     "model": "resources.starship",
-    "pk": 21
+    "_id": 21
 },
 {
     "fields": {
@@ -135,7 +135,7 @@
         "hyperdrive_rating": "1.0"
     },
     "model": "resources.starship",
-    "pk": 22
+    "_id": 22
 },
 {
     "fields": {
@@ -145,7 +145,7 @@
         "hyperdrive_rating": "2.0"
     },
     "model": "resources.starship",
-    "pk": 23
+    "_id": 23
 },
 {
     "fields": {
@@ -155,7 +155,7 @@
         "hyperdrive_rating": "1.0"
     },
     "model": "resources.starship",
-    "pk": 27
+    "_id": 27
 },
 {
     "fields": {
@@ -167,7 +167,7 @@
         "hyperdrive_rating": "1.0"
     },
     "model": "resources.starship",
-    "pk": 28
+    "_id": 28
 },
 {
     "fields": {
@@ -177,7 +177,7 @@
         "hyperdrive_rating": "2.0"
     },
     "model": "resources.starship",
-    "pk": 29
+    "_id": 29
 },
 {
     "fields": {
@@ -187,7 +187,7 @@
         "hyperdrive_rating": "2.0"
     },
     "model": "resources.starship",
-    "pk": 31
+    "_id": 31
 },
 {
     "fields": {
@@ -197,7 +197,7 @@
         "hyperdrive_rating": "2.0"
     },
     "model": "resources.starship",
-    "pk": 32
+    "_id": 32
 },
 {
     "fields": {
@@ -211,7 +211,7 @@
         "hyperdrive_rating": "1.0"
     },
     "model": "resources.starship",
-    "pk": 39
+    "_id": 39
 },
 {
     "fields": {
@@ -223,7 +223,7 @@
         "hyperdrive_rating": "1.8"
     },
     "model": "resources.starship",
-    "pk": 40
+    "_id": 40
 },
 {
     "fields": {
@@ -235,7 +235,7 @@
         "hyperdrive_rating": "1.5"
     },
     "model": "resources.starship",
-    "pk": 41
+    "_id": 41
 },
 {
     "fields": {
@@ -245,7 +245,7 @@
         "hyperdrive_rating": "0.7"
     },
     "model": "resources.starship",
-    "pk": 43
+    "_id": 43
 },
 {
     "fields": {
@@ -255,7 +255,7 @@
         "hyperdrive_rating": "unknown"
     },
     "model": "resources.starship",
-    "pk": 47
+    "_id": 47
 },
 {
     "fields": {
@@ -268,7 +268,7 @@
         "hyperdrive_rating": "1.0"
     },
     "model": "resources.starship",
-    "pk": 48
+    "_id": 48
 },
 {
     "fields": {
@@ -280,7 +280,7 @@
         "hyperdrive_rating": "0.9"
     },
     "model": "resources.starship",
-    "pk": 49
+    "_id": 49
 },
 {
     "fields": {
@@ -290,7 +290,7 @@
         "hyperdrive_rating": "0.6"
     },
     "model": "resources.starship",
-    "pk": 52
+    "_id": 52
 },
 {
     "fields": {
@@ -300,7 +300,7 @@
         "hyperdrive_rating": "1.5"
     },
     "model": "resources.starship",
-    "pk": 58
+    "_id": 58
 },
 {
     "fields": {
@@ -313,7 +313,7 @@
         "hyperdrive_rating": "1.5"
     },
     "model": "resources.starship",
-    "pk": 59
+    "_id": 59
 },
 {
     "fields": {
@@ -323,7 +323,7 @@
         "hyperdrive_rating": "1.0"
     },
     "model": "resources.starship",
-    "pk": 61
+    "_id": 61
 },
 {
     "fields": {
@@ -333,7 +333,7 @@
         "hyperdrive_rating": "1.0"
     },
     "model": "resources.starship",
-    "pk": 63
+    "_id": 63
 },
 {
     "fields": {
@@ -346,7 +346,7 @@
         "hyperdrive_rating": "0.5"
     },
     "model": "resources.starship",
-    "pk": 64
+    "_id": 64
 },
 {
     "fields": {
@@ -359,7 +359,7 @@
         "hyperdrive_rating": "1.0"
     },
     "model": "resources.starship",
-    "pk": 65
+    "_id": 65
 },
 {
     "fields": {
@@ -369,7 +369,7 @@
         "hyperdrive_rating": "1.0"
     },
     "model": "resources.starship",
-    "pk": 66
+    "_id": 66
 },
 {
     "fields": {
@@ -379,7 +379,7 @@
         "hyperdrive_rating": "1.0"
     },
     "model": "resources.starship",
-    "pk": 68
+    "_id": 68
 },
 {
     "fields": {
@@ -392,7 +392,7 @@
         "hyperdrive_rating": "6"
     },
     "model": "resources.starship",
-    "pk": 74
+    "_id": 74
 },
 {
     "fields": {
@@ -402,6 +402,6 @@
         "hyperdrive_rating": "1.0"
     },
     "model": "resources.starship",
-    "pk": 75
+    "_id": 75
 }
 ]

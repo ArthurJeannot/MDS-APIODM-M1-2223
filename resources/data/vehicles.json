@@ -5,7 +5,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 4
+    "_id": 4
 },
 {
     "fields": {
@@ -13,7 +13,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 6
+    "_id": 6
 },
 {
     "fields": {
@@ -21,7 +21,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 7
+    "_id": 7
 },
 {
     "fields": {
@@ -29,7 +29,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 8
+    "_id": 8
 },
 {
     "fields": {
@@ -40,7 +40,7 @@
         ]
     },
     "model": "resources.vehicle",
-    "pk": 14
+    "_id": 14
 },
 {
     "fields": {
@@ -48,7 +48,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 16
+    "_id": 16
 },
 {
     "fields": {
@@ -56,7 +56,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 18
+    "_id": 18
 },
 {
     "fields": {
@@ -66,7 +66,7 @@
         ]
     },
     "model": "resources.vehicle",
-    "pk": 19
+    "_id": 19
 },
 {
     "fields": {
@@ -74,7 +74,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 20
+    "_id": 20
 },
 {
     "fields": {
@@ -82,7 +82,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 24
+    "_id": 24
 },
 {
     "fields": {
@@ -90,7 +90,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 25
+    "_id": 25
 },
 {
     "fields": {
@@ -98,7 +98,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 26
+    "_id": 26
 },
 {
     "fields": {
@@ -109,7 +109,7 @@
         ]
     },
     "model": "resources.vehicle",
-    "pk": 30
+    "_id": 30
 },
 {
     "fields": {
@@ -117,7 +117,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 33
+    "_id": 33
 },
 {
     "fields": {
@@ -125,7 +125,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 34
+    "_id": 34
 },
 {
     "fields": {
@@ -133,7 +133,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 35
+    "_id": 35
 },
 {
     "fields": {
@@ -141,7 +141,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 36
+    "_id": 36
 },
 {
     "fields": {
@@ -149,7 +149,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 37
+    "_id": 37
 },
 {
     "fields": {
@@ -160,7 +160,7 @@
         ]
     },
     "model": "resources.vehicle",
-    "pk": 38
+    "_id": 38
 },
 {
     "fields": {
@@ -170,7 +170,7 @@
         ]
     },
     "model": "resources.vehicle",
-    "pk": 42
+    "_id": 42
 },
 {
     "fields": {
@@ -180,7 +180,7 @@
         ]
     },
     "model": "resources.vehicle",
-    "pk": 44
+    "_id": 44
 },
 {
     "fields": {
@@ -190,7 +190,7 @@
         ]
     },
     "model": "resources.vehicle",
-    "pk": 45
+    "_id": 45
 },
 {
     "fields": {
@@ -200,7 +200,7 @@
         ]
     },
     "model": "resources.vehicle",
-    "pk": 46
+    "_id": 46
 },
 {
     "fields": {
@@ -208,7 +208,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 50
+    "_id": 50
 },
 {
     "fields": {
@@ -216,7 +216,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 51
+    "_id": 51
 },
 {
     "fields": {
@@ -224,7 +224,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 53
+    "_id": 53
 },
 {
     "fields": {
@@ -232,7 +232,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 54
+    "_id": 54
 },
 {
     "fields": {
@@ -242,7 +242,7 @@
         ]
     },
     "model": "resources.vehicle",
-    "pk": 55
+    "_id": 55
 },
 {
     "fields": {
@@ -250,7 +250,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 56
+    "_id": 56
 },
 {
     "fields": {
@@ -258,7 +258,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 57
+    "_id": 57
 },
 {
     "fields": {
@@ -268,7 +268,7 @@
         ]
     },
     "model": "resources.vehicle",
-    "pk": 60
+    "_id": 60
 },
 {
     "fields": {
@@ -276,7 +276,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 62
+    "_id": 62
 },
 {
     "fields": {
@@ -284,7 +284,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 67
+    "_id": 67
 },
 {
     "fields": {
@@ -292,7 +292,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 69
+    "_id": 69
 },
 {
     "fields": {
@@ -300,7 +300,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 70
+    "_id": 70
 },
 {
     "fields": {
@@ -308,7 +308,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 71
+    "_id": 71
 },
 {
     "fields": {
@@ -316,7 +316,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 72
+    "_id": 72
 },
 {
     "fields": {
@@ -324,7 +324,7 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 73
+    "_id": 73
 },
 {
     "fields": {
@@ -332,6 +332,6 @@
         "pilots": []
     },
     "model": "resources.vehicle",
-    "pk": 76
+    "_id": 76
 }
 ]

@@ -14,7 +14,7 @@
         "population": "200000"
     },
     "model": "resources.planet",
-    "pk": 1
+    "_id": 1
 },
 {
     "fields": {
@@ -31,7 +31,7 @@
         "population": "2000000000"
     },
     "model": "resources.planet",
-    "pk": 2
+    "_id": 2
 },
 {
     "fields": {
@@ -48,7 +48,7 @@
         "population": "1000"
     },
     "model": "resources.planet",
-    "pk": 3
+    "_id": 3
 },
 {
     "fields": {
@@ -65,7 +65,7 @@
         "population": "unknown"
     },
     "model": "resources.planet",
-    "pk": 4
+    "_id": 4
 },
 {
     "fields": {
@@ -82,7 +82,7 @@
         "population": "unknown"
     },
     "model": "resources.planet",
-    "pk": 5
+    "_id": 5
 },
 {
     "fields": {
@@ -99,7 +99,7 @@
         "population": "6000000"
     },
     "model": "resources.planet",
-    "pk": 6
+    "_id": 6
 },
 {
     "fields": {
@@ -116,7 +116,7 @@
         "population": "30000000"
     },
     "model": "resources.planet",
-    "pk": 7
+    "_id": 7
 },
 {
     "fields": {
@@ -133,7 +133,7 @@
         "population": "4500000000"
     },
     "model": "resources.planet",
-    "pk": 8
+    "_id": 8
 },
 {
     "fields": {
@@ -150,7 +150,7 @@
         "population": "1000000000000"
     },
     "model": "resources.planet",
-    "pk": 9
+    "_id": 9
 },
 {
     "fields": {
@@ -167,7 +167,7 @@
         "population": "1000000000"
     },
     "model": "resources.planet",
-    "pk": 10
+    "_id": 10
 },
 {
     "fields": {
@@ -184,7 +184,7 @@
         "population": "100000000000"
     },
     "model": "resources.planet",
-    "pk": 11
+    "_id": 11
 },
 {
     "fields": {
@@ -201,7 +201,7 @@
         "population": "95000000"
     },
     "model": "resources.planet",
-    "pk": 12
+    "_id": 12
 },
 {
     "fields": {
@@ -218,7 +218,7 @@
         "population": "20000"
     },
     "model": "resources.planet",
-    "pk": 13
+    "_id": 13
 },
 {
     "fields": {
@@ -235,7 +235,7 @@
         "population": "45000000"
     },
     "model": "resources.planet",
-    "pk": 14
+    "_id": 14
 },
 {
     "fields": {
@@ -252,7 +252,7 @@
         "population": "1000000"
     },
     "model": "resources.planet",
-    "pk": 15
+    "_id": 15
 },
 {
     "fields": {
@@ -269,7 +269,7 @@
         "population": "19000000"
     },
     "model": "resources.planet",
-    "pk": 16
+    "_id": 16
 },
 {
     "fields": {
@@ -286,7 +286,7 @@
         "population": "8500000"
     },
     "model": "resources.planet",
-    "pk": 17
+    "_id": 17
 },
 {
     "fields": {
@@ -303,7 +303,7 @@
         "population": "10000000"
     },
     "model": "resources.planet",
-    "pk": 18
+    "_id": 18
 },
 {
     "fields": {
@@ -320,7 +320,7 @@
         "population": "1400000000"
     },
     "model": "resources.planet",
-    "pk": 19
+    "_id": 19
 },
 {
     "fields": {
@@ -337,7 +337,7 @@
         "population": "unknown"
     },
     "model": "resources.planet",
-    "pk": 20
+    "_id": 20
 },
 {
     "fields": {
@@ -354,7 +354,7 @@
         "population": "22000000000"
     },
     "model": "resources.planet",
-    "pk": 21
+    "_id": 21
 },
 {
     "fields": {
@@ -371,7 +371,7 @@
         "population": "3000000000"
     },
     "model": "resources.planet",
-    "pk": 22
+    "_id": 22
 },
 {
     "fields": {
@@ -388,7 +388,7 @@
         "population": "1300000000"
     },
     "model": "resources.planet",
-    "pk": 23
+    "_id": 23
 },
 {
     "fields": {
@@ -405,7 +405,7 @@
         "population": "7000000000"
     },
     "model": "resources.planet",
-    "pk": 24
+    "_id": 24
 },
 {
     "fields": {
@@ -422,7 +422,7 @@
         "population": "1000"
     },
     "model": "resources.planet",
-    "pk": 25
+    "_id": 25
 },
 {
     "fields": {
@@ -439,7 +439,7 @@
         "population": "62000000"
     },
     "model": "resources.planet",
-    "pk": 26
+    "_id": 26
 },
 {
     "fields": {
@@ -456,7 +456,7 @@
         "population": "4000000000"
     },
     "model": "resources.planet",
-    "pk": 27
+    "_id": 27
 },
 {
     "fields": {
@@ -473,7 +473,7 @@
         "population": "unknown"
     },
     "model": "resources.planet",
-    "pk": 28
+    "_id": 28
 },
 {
     "fields": {
@@ -490,7 +490,7 @@
         "population": "42000000"
     },
     "model": "resources.planet",
-    "pk": 29
+    "_id": 29
 },
 {
     "fields": {
@@ -507,7 +507,7 @@
         "population": "300000000"
     },
     "model": "resources.planet",
-    "pk": 30
+    "_id": 30
 },
 {
     "fields": {
@@ -524,7 +524,7 @@
         "population": "27000000000"
     },
     "model": "resources.planet",
-    "pk": 31
+    "_id": 31
 },
 {
     "fields": {
@@ -541,7 +541,7 @@
         "population": "1200000000"
     },
     "model": "resources.planet",
-    "pk": 32
+    "_id": 32
 },
 {
     "fields": {
@@ -558,7 +558,7 @@
         "population": "18500000000"
     },
     "model": "resources.planet",
-    "pk": 33
+    "_id": 33
 },
 {
     "fields": {
@@ -575,7 +575,7 @@
         "population": "11000000"
     },
     "model": "resources.planet",
-    "pk": 34
+    "_id": 34
 },
 {
     "fields": {
@@ -592,7 +592,7 @@
         "population": "2000000000"
     },
     "model": "resources.planet",
-    "pk": 35
+    "_id": 35
 },
 {
     "fields": {
@@ -609,7 +609,7 @@
         "population": "5200"
     },
     "model": "resources.planet",
-    "pk": 36
+    "_id": 36
 },
 {
     "fields": {
@@ -626,7 +626,7 @@
         "population": "1500000000"
     },
     "model": "resources.planet",
-    "pk": 37
+    "_id": 37
 },
 {
     "fields": {
@@ -643,7 +643,7 @@
         "population": "unknown"
     },
     "model": "resources.planet",
-    "pk": 38
+    "_id": 38
 },
 {
     "fields": {
@@ -660,7 +660,7 @@
         "population": "421000000"
     },
     "model": "resources.planet",
-    "pk": 39
+    "_id": 39
 },
 {
     "fields": {
@@ -677,7 +677,7 @@
         "population": "unknown"
     },
     "model": "resources.planet",
-    "pk": 40
+    "_id": 40
 },
 {
     "fields": {
@@ -694,7 +694,7 @@
         "population": "0"
     },
     "model": "resources.planet",
-    "pk": 41
+    "_id": 41
 },
 {
     "fields": {
@@ -711,7 +711,7 @@
         "population": "705300"
     },
     "model": "resources.planet",
-    "pk": 42
+    "_id": 42
 },
 {
     "fields": {
@@ -728,7 +728,7 @@
         "population": "450000000"
     },
     "model": "resources.planet",
-    "pk": 43
+    "_id": 43
 },
 {
     "fields": {
@@ -745,7 +745,7 @@
         "population": "500000000"
     },
     "model": "resources.planet",
-    "pk": 44
+    "_id": 44
 },
 {
     "fields": {
@@ -762,7 +762,7 @@
         "population": "unknown"
     },
     "model": "resources.planet",
-    "pk": 45
+    "_id": 45
 },
 {
     "fields": {
@@ -779,7 +779,7 @@
         "population": "unknown"
     },
     "model": "resources.planet",
-    "pk": 46
+    "_id": 46
 },
 {
     "fields": {
@@ -796,7 +796,7 @@
         "population": "unknown"
     },
     "model": "resources.planet",
-    "pk": 47
+    "_id": 47
 },
 {
     "fields": {
@@ -813,7 +813,7 @@
         "population": "unknown"
     },
     "model": "resources.planet",
-    "pk": 48
+    "_id": 48
 },
 {
     "fields": {
@@ -830,7 +830,7 @@
         "population": "unknown"
     },
     "model": "resources.planet",
-    "pk": 49
+    "_id": 49
 },
 {
     "fields": {
@@ -847,7 +847,7 @@
         "population": "3500000000"
     },
     "model": "resources.planet",
-    "pk": 50
+    "_id": 50
 },
 {
     "fields": {
@@ -864,7 +864,7 @@
         "population": "unknown"
     },
     "model": "resources.planet",
-    "pk": 51
+    "_id": 51
 },
 {
     "fields": {
@@ -881,7 +881,7 @@
         "population": "unknown"
     },
     "model": "resources.planet",
-    "pk": 52
+    "_id": 52
 },
 {
     "fields": {
@@ -898,7 +898,7 @@
         "population": "unknown"
     },
     "model": "resources.planet",
-    "pk": 53
+    "_id": 53
 },
 {
     "fields": {
@@ -915,7 +915,7 @@
         "population": "unknown"
     },
     "model": "resources.planet",
-    "pk": 54
+    "_id": 54
 },
 {
     "fields": {
@@ -932,7 +932,7 @@
         "population": "500000000"
     },
     "model": "resources.planet",
-    "pk": 55
+    "_id": 55
 },
 {
     "fields": {
@@ -949,7 +949,7 @@
         "population": "500000000000"
     },
     "model": "resources.planet",
-    "pk": 56
+    "_id": 56
 },
 {
     "fields": {
@@ -966,7 +966,7 @@
         "population": "5000000000"
     },
     "model": "resources.planet",
-    "pk": 57
+    "_id": 57
 },
 {
     "fields": {
@@ -983,7 +983,7 @@
         "population": "unknown"
     },
     "model": "resources.planet",
-    "pk": 58
+    "_id": 58
 },
 {
     "fields": {
@@ -1000,7 +1000,7 @@
         "population": "4000000000"
     },
     "model": "resources.planet",
-    "pk": 59
+    "_id": 59
 },
 {
     "fields": {
@@ -1017,6 +1017,6 @@
         "population": "unknown"
     },
     "model": "resources.planet",
-    "pk": 60
+    "_id": 60
 }
 ]

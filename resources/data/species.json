@@ -22,7 +22,7 @@
         "average_height": "180"
     },
     "model": "resources.species",
-    "pk": 1
+    "_id": 1
 },
 {
     "fields": {
@@ -46,7 +46,7 @@
         "average_height": "n/a"
     },
     "model": "resources.species",
-    "pk": 2
+    "_id": 2
 },
 {
     "fields": {
@@ -68,7 +68,7 @@
         "average_height": "210"
     },
     "model": "resources.species",
-    "pk": 3
+    "_id": 3
 },
 {
     "fields": {
@@ -89,7 +89,7 @@
         "average_height": "170"
     },
     "model": "resources.species",
-    "pk": 4
+    "_id": 4
 },
 {
     "fields": {
@@ -110,7 +110,7 @@
         "average_height": "300"
     },
     "model": "resources.species",
-    "pk": 5
+    "_id": 5
 },
 {
     "fields": {
@@ -131,7 +131,7 @@
         "average_height": "66"
     },
     "model": "resources.species",
-    "pk": 6
+    "_id": 6
 },
 {
     "fields": {
@@ -152,7 +152,7 @@
         "average_height": "200"
     },
     "model": "resources.species",
-    "pk": 7
+    "_id": 7
 },
 {
     "fields": {
@@ -173,7 +173,7 @@
         "average_height": "160"
     },
     "model": "resources.species",
-    "pk": 8
+    "_id": 8
 },
 {
     "fields": {
@@ -194,7 +194,7 @@
         "average_height": "100"
     },
     "model": "resources.species",
-    "pk": 9
+    "_id": 9
 },
 {
     "fields": {
@@ -215,7 +215,7 @@
         "average_height": "180"
     },
     "model": "resources.species",
-    "pk": 10
+    "_id": 10
 },
 {
     "fields": {
@@ -236,7 +236,7 @@
         "average_height": "180"
     },
     "model": "resources.species",
-    "pk": 11
+    "_id": 11
 },
 {
     "fields": {
@@ -259,7 +259,7 @@
         "average_height": "190"
     },
     "model": "resources.species",
-    "pk": 12
+    "_id": 12
 },
 {
     "fields": {
@@ -280,7 +280,7 @@
         "average_height": "120"
     },
     "model": "resources.species",
-    "pk": 13
+    "_id": 13
 },
 {
     "fields": {
@@ -301,7 +301,7 @@
         "average_height": "100"
     },
     "model": "resources.species",
-    "pk": 14
+    "_id": 14
 },
 {
     "fields": {
@@ -323,7 +323,7 @@
         "average_height": "200"
     },
     "model": "resources.species",
-    "pk": 15
+    "_id": 15
 },
 {
     "fields": {
@@ -344,7 +344,7 @@
         "average_height": "80"
     },
     "model": "resources.species",
-    "pk": 16
+    "_id": 16
 },
 {
     "fields": {
@@ -365,7 +365,7 @@
         "average_height": "100"
     },
     "model": "resources.species",
-    "pk": 17
+    "_id": 17
 },
 {
     "fields": {
@@ -386,7 +386,7 @@
         "average_height": "125"
     },
     "model": "resources.species",
-    "pk": 18
+    "_id": 18
 },
 {
     "fields": {
@@ -407,7 +407,7 @@
         "average_height": "200"
     },
     "model": "resources.species",
-    "pk": 19
+    "_id": 19
 },
 {
     "fields": {
@@ -428,7 +428,7 @@
         "average_height": "200"
     },
     "model": "resources.species",
-    "pk": 20
+    "_id": 20
 },
 {
     "fields": {
@@ -449,7 +449,7 @@
         "average_height": "180"
     },
     "model": "resources.species",
-    "pk": 21
+    "_id": 21
 },
 {
     "fields": {
@@ -471,7 +471,7 @@
         "average_height": "180"
     },
     "model": "resources.species",
-    "pk": 22
+    "_id": 22
 },
 {
     "fields": {
@@ -492,7 +492,7 @@
         "average_height": "unknown"
     },
     "model": "resources.species",
-    "pk": 23
+    "_id": 23
 },
 {
     "fields": {
@@ -513,7 +513,7 @@
         "average_height": "180"
     },
     "model": "resources.species",
-    "pk": 24
+    "_id": 24
 },
 {
     "fields": {
@@ -534,7 +534,7 @@
         "average_height": "240"
     },
     "model": "resources.species",
-    "pk": 25
+    "_id": 25
 },
 {
     "fields": {
@@ -555,7 +555,7 @@
         "average_height": "180"
     },
     "model": "resources.species",
-    "pk": 26
+    "_id": 26
 },
 {
     "fields": {
@@ -576,7 +576,7 @@
         "average_height": "190"
     },
     "model": "resources.species",
-    "pk": 27
+    "_id": 27
 },
 {
     "fields": {
@@ -597,7 +597,7 @@
         "average_height": "178"
     },
     "model": "resources.species",
-    "pk": 28
+    "_id": 28
 },
 {
     "fields": {
@@ -619,7 +619,7 @@
         "average_height": "180"
     },
     "model": "resources.species",
-    "pk": 29
+    "_id": 29
 },
 {
     "fields": {
@@ -640,7 +640,7 @@
         "average_height": "180"
     },
     "model": "resources.species",
-    "pk": 30
+    "_id": 30
 },
 {
     "fields": {
@@ -661,7 +661,7 @@
         "average_height": "178"
     },
     "model": "resources.species",
-    "pk": 31
+    "_id": 31
 },
 {
     "fields": {
@@ -683,7 +683,7 @@
         "average_height": "220"
     },
     "model": "resources.species",
-    "pk": 32
+    "_id": 32
 },
 {
     "fields": {
@@ -704,7 +704,7 @@
         "average_height": "unknown"
     },
     "model": "resources.species",
-    "pk": 33
+    "_id": 33
 },
 {
     "fields": {
@@ -725,7 +725,7 @@
         "average_height": "190"
     },
     "model": "resources.species",
-    "pk": 34
+    "_id": 34
 },
 {
     "fields": {
@@ -746,7 +746,7 @@
         "average_height": "180"
     },
     "model": "resources.species",
-    "pk": 35
+    "_id": 35
 },
 {
     "fields": {
@@ -767,7 +767,7 @@
         "average_height": "170"
     },
     "model": "resources.species",
-    "pk": 36
+    "_id": 36
 },
 {
     "fields": {
@@ -788,6 +788,6 @@
         "average_height": "190"
     },
     "model": "resources.species",
-    "pk": 37
+    "_id": 37
 }
 ]

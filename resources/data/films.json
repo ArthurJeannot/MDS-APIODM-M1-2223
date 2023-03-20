@@ -59,7 +59,7 @@
         ]
     },
     "model": "resources.film",
-    "pk": 1
+    "_id": 1
 },
 {
     "fields": {
@@ -123,7 +123,7 @@
         ]
     },
     "model": "resources.film",
-    "pk": 2
+    "_id": 2
 },
 {
     "fields": {
@@ -201,7 +201,7 @@
         ]
     },
     "model": "resources.film",
-    "pk": 3
+    "_id": 3
 },
 {
     "fields": {
@@ -294,7 +294,7 @@
         ]
     },
     "model": "resources.film",
-    "pk": 4
+    "_id": 4
 },
 {
     "fields": {
@@ -397,7 +397,7 @@
         ]
     },
     "model": "resources.film",
-    "pk": 5
+    "_id": 5
 },
 {
     "fields": {
@@ -513,6 +513,6 @@
         ]
     },
     "model": "resources.film",
-    "pk": 6
+    "_id": 6
 }
 ]
