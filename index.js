@@ -2,6 +2,7 @@ require("dotenv").config();
 
 const express = require("express");
 const mongoose = require("mongoose");
+const port = '8080'
 const app = express();
 
 const peopleRouter = require('./routes/peoples');
@@ -18,8 +19,8 @@ async function main() {
 
     app.use('/peoples', peopleRouter);
     
-    app.listen(process.env.PORT, () => {
-      console.log("Requêtes écouté sur le port", process.env.PORT);
+    app.listen(port, () => {
+      console.log("Requêtes écouté sur le port", port);
     });
   });
   var db = mongoose.connection;
