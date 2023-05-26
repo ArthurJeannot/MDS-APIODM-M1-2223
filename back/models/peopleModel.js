@@ -1,21 +1,9 @@
 const mongoose = require("mongoose");
 
-const peoplesSchema = new mongoose.Schema(
-{
-    _id: {
-        type: Number,
-        required: true
-    },
-    edited: {
-        type: Date,
-        required: true
-    },
+const peopleSchema = new mongoose.Schema(
+{    
     name: {
         type: String,
-        required: true
-    },
-    created: {
-        type: Date,
         required: true
     },
     gender: {
@@ -49,7 +37,11 @@ const peoplesSchema = new mongoose.Schema(
     birth_year: {
         type: String,
         required: true
+    },
+    pk: {
+        type: Number,
+        required: true
     }
-});
+}, {timestamps : true, versionKey: false});
 
-module.exports = mongoose.model("peoples", peoplesSchema);
+module.exports = mongoose.model("People", peopleSchema);
