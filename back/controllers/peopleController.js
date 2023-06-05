@@ -28,7 +28,7 @@ const createPeople = async (req, res) => {
   try {
     const people = await People.create({ ...req.body });
 
-    res.json(people);
+    res.status(201).json(people);
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
@@ -42,7 +42,7 @@ const deletePeople = async (req, res) => {
 
     if (!people) return res.status(404).json({ error: 'People not found' });
 
-    res.json();
+    res.status(204).send();
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
@@ -52,11 +52,18 @@ const updatePeople = async (req, res) => {
   try {
     if (!mongoose.Types.ObjectId.isValid(req.params.id)) return res.status(400).json({ error: 'Invalid ID type' });
 
-    const people = await People.findByIdAndUpdate({ _id: req.params.id }, { ...req.body });
+    const people = await People.findByIdAndUpdate({ _id: req.params.id }, { ...req.body }, { new: true });
 
     if (!people) return res.status(404).json({ error: 'People not found' });
 
-    res.send();
+    const updatedAttributes = {};
+    for (const [key] of Object.entries(req.body)) {
+      if (people[key] !== undefined) {
+        updatedAttributes[key] = people[key];
+      }
+    }
+
+    res.status(200).json(updatedAttributes);
   } catch (err) {
     res.status(500).json({ message: err.message });
   }

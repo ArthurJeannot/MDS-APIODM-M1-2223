@@ -4,6 +4,12 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const peoples = require("./back/routes/peoples.js");
+const films = require("./back/routes/films.js");
+const planets = require("./back/routes/planets.js");
+const species = require("./back/routes/species.js");
+const starships = require("./back/routes/starships.js");
+const transports = require("./back/routes/transports.js");
+const vehicles = require("./back/routes/vehicles.js");
 
 const app = express();
 const port = '8080';
@@ -23,6 +29,12 @@ async function main() {
     app.use(bodyParser.urlencoded({ extended: true }));
 
     app.use('/peoples', peoples);
+    app.use('/films', films);
+    app.use('/planets', planets);
+    app.use('/species', species);
+    app.use('/starships', starships);
+    app.use('/transports', transports);
+    app.use('/vehicles', vehicles);
     
     app.listen(port, () => {
       console.log("Port écouté:", port);

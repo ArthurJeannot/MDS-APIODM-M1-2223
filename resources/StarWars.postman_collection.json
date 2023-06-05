@@ -1,0 +1,819 @@
+{
+	"info": {
+		"_postman_id": "5f914ab5-1a56-4880-bb73-4934a55d37e0",
+		"name": "StarWars",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19126470"
+	},
+	"item": [
+		{
+			"name": "Peoples",
+			"item": [
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Peoples",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Peoples"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get One",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Peoples/647df85b169eb398abfd0f90",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Peoples",
+								"647df85b169eb398abfd0f90"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Din Djarin\",\r\n    \"gender\": \"male\",\r\n    \"skin_color\": \"fair\",\r\n    \"hair_color\": \"brown\",\r\n    \"height\": \"184\",\r\n    \"eye_color\": \"black\",\r\n    \"mass\": \"80\",\r\n    \"homeworld\": 12,\r\n    \"birth_year\": \"unknown\",\r\n    \"pk\": 84\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/Peoples",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Peoples"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Leia Skywalker\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/Peoples/647dee82cc306a52af5fe8ff",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Peoples",
+								"647dee82cc306a52af5fe8ff"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Peoples/647df8da3aa05d06fcccfcc4",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Peoples",
+								"647df8da3aa05d06fcccfcc4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Films",
+			"item": [
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Films",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Films"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get One",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Films/647ded4fcc306a52af5f1062",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Films",
+								"647ded4fcc306a52af5f1062"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Force Awaken\",\r\n    \"episode_id\": 7,\r\n    \"starships\": [\r\n        2,\r\n        3,\r\n        5,\r\n        9,\r\n        10,\r\n        11,\r\n        12,\r\n        13\r\n    ],\r\n    \"vehicles\": [\r\n        4,\r\n        6,\r\n        7,\r\n        8\r\n    ],\r\n    \"planets\": [\r\n        1,\r\n        2,\r\n        3\r\n    ],\r\n    \"producer\": \"Gary Kurtz, Rick McCallum\",\r\n    \"director\": \"George Lucas\",\r\n    \"release_date\": \"1977-05-25T00:00:00.000Z\",\r\n    \"opening_crawl\": \"It is a period of civil war.\\r\\nRebel spaceships, striking\\r\\nfrom a hidden base, have won\\r\\ntheir first victory against\\r\\nthe evil Galactic Empire.\\r\\n\\r\\nDuring the battle, Rebel\\r\\nspies managed to steal secret\\r\\nplans to the Empire's\\r\\nultimate weapon, the DEATH\\r\\nSTAR, an armored space\\r\\nstation with enough power\\r\\nto destroy an entire planet.\\r\\n\\r\\nPursued by the Empire's\\r\\nsinister agents, Princess\\r\\nLeia races home aboard her\\r\\nstarship, custodian of the\\r\\nstolen plans that can save her\\r\\npeople and restore\\r\\nfreedom to the galaxy....\",\r\n    \"characters\": [\r\n        1,\r\n        2,\r\n        3,\r\n        4,\r\n        5,\r\n        6,\r\n        7,\r\n        8,\r\n        9,\r\n        10,\r\n        12,\r\n        13,\r\n        14,\r\n        15,\r\n        16,\r\n        18,\r\n        19,\r\n        81\r\n    ],\r\n    \"species\": [\r\n        1,\r\n        2,\r\n        3,\r\n        4,\r\n        5\r\n    ],\r\n    \"pk\": 7\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/Films",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Films"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Star Wars 1: A New Hope\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/Films/647ded4fcc306a52af5f1062",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Films",
+								"647ded4fcc306a52af5f1062"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Films/647dd393cc306a52af4d521c",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Films",
+								"647dd393cc306a52af4d521c"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Planets",
+			"item": [
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Planets",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Planets"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get One",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Planets/647de0d3cc306a52af5660c5",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Planets",
+								"647de0d3cc306a52af5660c5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"edited\": \"2014-12-20T20:58:18.411Z\",\r\n    \"climate\": \"humid\",\r\n    \"surface_water\": \"1\",\r\n    \"name\": \"Terre\",\r\n    \"diameter\": \"10465\",\r\n    \"rotation_period\": \"23\",\r\n    \"created\": \"2014-12-09T13:50:49.641Z\",\r\n    \"terrain\": \"desert\",\r\n    \"gravity\": \"1 standard\",\r\n    \"orbital_period\": \"304\",\r\n    \"population\": \"6000000\",\r\n    \"pk\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/Planets",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Planets"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"population\": \"200000\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/Planets/647de0d3cc306a52af5660c5",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Planets",
+								"647de0d3cc306a52af5660c5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Planets/647df9273aa05d06fcccfcc8",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Planets",
+								"647df9273aa05d06fcccfcc8"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Species",
+			"item": [
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Species",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Species"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get One",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Species/647df6c2a85b1ada3ec6797e",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Species",
+								"647df6c2a85b1ada3ec6797e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"classification\": \"mammal\",\r\n    \"name\": \"Mandalorian\",\r\n    \"designation\": \"sentient\",\r\n    \"eye_colors\": \"black, brown, blue, green, hazel, grey, amber\",\r\n    \"people\": [\r\n        1,\r\n        4,\r\n        5,\r\n        6,\r\n        7,\r\n        9,\r\n        10,\r\n        11,\r\n        12,\r\n        14,\r\n        18,\r\n        19,\r\n        21,\r\n        22,\r\n        25,\r\n        26,\r\n        28,\r\n        29,\r\n        32,\r\n        34,\r\n        35,\r\n        39,\r\n        42,\r\n        43,\r\n        51,\r\n        60,\r\n        61,\r\n        62,\r\n        66,\r\n        67,\r\n        68,\r\n        69,\r\n        74,\r\n        81,\r\n        82\r\n    ],\r\n    \"skin_colors\": \"caucasian, black, asian, hispanic\",\r\n    \"language\": \"Galactic Basic\",\r\n    \"hair_colors\": \"blonde, brown, black, red\",\r\n    \"homeworld\": 9,\r\n    \"average_lifespan\": \"120\",\r\n    \"average_height\": \"180\",\r\n    \"pk\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/Species",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Species"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n     \"eye_colors\": \"black, brown, blue, green, hazel, grey, amber\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/Species/647dee99cc306a52af5ff94a",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Species",
+								"647dee99cc306a52af5ff94a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Species/647df9373aa05d06fcccfccb",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Species",
+								"647df9373aa05d06fcccfccb"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Starships",
+			"item": [
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Starships",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Starships"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get One",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Starships/647deee7cc306a52af60305e",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Starships",
+								"647deee7cc306a52af60305e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pilots\": [],\r\n    \"MGLT\": \"60\",\r\n    \"starship_class\": \"N-1 starfighter\",\r\n    \"hyperdrive_rating\": \"5.0\",\r\n    \"pk\": 15\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/Starships",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Starships"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"hyperdrive_rating\": \"1.0\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/Starships/647deee7cc306a52af60305e",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Starships",
+								"647deee7cc306a52af60305e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Starships/647dfa343aa05d06fcccfcd3",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Starships",
+								"647dfa343aa05d06fcccfcd3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Transports",
+			"item": [
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Transports",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Transports"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get One",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Transports/647def09cc306a52af604827",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Transports",
+								"647def09cc306a52af604827"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"consumables\": \"1 year\",\r\n        \"name\": \"CR103 corvette\",\r\n        \"cargo_capacity\": \"5000000\",\r\n        \"passengers\": \"600\",\r\n        \"max_atmosphering_speed\": \"950\",\r\n        \"crew\": \"30-165\",\r\n        \"length\": \"150\",\r\n        \"model\": \"CR90 corvette\",\r\n        \"cost_in_credits\": \"3500000\",\r\n        \"manufacturer\": \"Corellian Engineering Corporation\",\r\n        \"pk\": 2\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/Transports",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Transports"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"consumables\": \"2 years\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/Transports/647def09cc306a52af604827",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Transports",
+								"647def09cc306a52af604827"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Transports/647dfae4f3bc7bfd3189a33d",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Transports",
+								"647dfae4f3bc7bfd3189a33d"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Vehicles",
+			"item": [
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Vehicles",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Vehicles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get One",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Vehicles/647def36cc306a52af60680f",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Vehicles",
+								"647def36cc306a52af60680f"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"vehicle_class\": \"caterpillar\",\r\n        \"pilots\": [],\r\n        \"pk\": 4\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/Vehicles",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Vehicles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pilots\": [1, 4]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/Vehicles/647def36cc306a52af60680f",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Vehicles",
+								"647def36cc306a52af60680f"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/Vehicles/647dfbf0f3bc7bfd3189a346",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"Vehicles",
+								"647dfbf0f3bc7bfd3189a346"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:{{port}}",
+			"type": "string"
+		},
+		{
+			"key": "port",
+			"value": "8080",
+			"type": "string"
+		}
+	]
+}

@@ -1,9 +1,9 @@
 [
   {
-    "edited": "2014-12-20T21:23:49.867Z",
+    "updatedAt": "2014-12-20T21:23:49.867Z",
     "consumables": "1 year",
     "name": "CR90 corvette",
-    "created": "2014-12-10T14:20:33.369Z",
+    "createdAt": "2014-12-10T14:20:33.369Z",
     "cargo_capacity": "3000000",
     "passengers": "600",
     "max_atmosphering_speed": "950",
@@ -15,10 +15,10 @@
     "pk": 2
   },
   {
-    "edited": "2014-12-20T21:23:49.870Z",
+    "updatedAt": "2014-12-20T21:23:49.870Z",
     "consumables": "2 years",
     "name": "Star Destroyer",
-    "created": "2014-12-10T15:08:19.848Z",
+    "createdAt": "2014-12-10T15:08:19.848Z",
     "cargo_capacity": "36000000",
     "passengers": "n/a",
     "max_atmosphering_speed": "975",
@@ -30,10 +30,10 @@
     "pk": 3
   },
   {
-    "edited": "2014-12-20T21:30:21.661Z",
+    "updatedAt": "2014-12-20T21:30:21.661Z",
     "consumables": "2 months",
     "name": "Sand Crawler",
-    "created": "2014-12-10T15:36:25.724Z",
+    "createdAt": "2014-12-10T15:36:25.724Z",
     "cargo_capacity": "50000",
     "passengers": "30",
     "max_atmosphering_speed": "30",
@@ -45,10 +45,10 @@
     "pk": 4
   },
   {
-    "edited": "2014-12-20T21:23:49.873Z",
+    "updatedAt": "2014-12-20T21:23:49.873Z",
     "consumables": "1 month",
     "name": "Sentinel-class landing craft",
-    "created": "2014-12-10T15:48:00.586Z",
+    "createdAt": "2014-12-10T15:48:00.586Z",
     "cargo_capacity": "180000",
     "passengers": "75",
     "max_atmosphering_speed": "1000",
@@ -60,10 +60,10 @@
     "pk": 5
   },
   {
-    "edited": "2014-12-20T21:30:21.665Z",
+    "updatedAt": "2014-12-20T21:30:21.665Z",
     "consumables": "0",
     "name": "T-16 skyhopper",
-    "created": "2014-12-10T16:01:52.434Z",
+    "createdAt": "2014-12-10T16:01:52.434Z",
     "cargo_capacity": "50",
     "passengers": "1",
     "max_atmosphering_speed": "1200",
@@ -75,10 +75,10 @@
     "pk": 6
   },
   {
-    "edited": "2014-12-20T21:30:21.668Z",
+    "updatedAt": "2014-12-20T21:30:21.668Z",
     "consumables": "unknown",
     "name": "X-34 landspeeder",
-    "created": "2014-12-10T16:13:52.586Z",
+    "createdAt": "2014-12-10T16:13:52.586Z",
     "cargo_capacity": "5",
     "passengers": "1",
     "max_atmosphering_speed": "250",
@@ -90,10 +90,10 @@
     "pk": 7
   },
   {
-    "edited": "2014-12-20T21:30:21.670Z",
+    "updatedAt": "2014-12-20T21:30:21.670Z",
     "consumables": "2 days",
     "name": "TIE/LN starfighter",
-    "created": "2014-12-10T16:33:52.860Z",
+    "createdAt": "2014-12-10T16:33:52.860Z",
     "cargo_capacity": "65",
     "passengers": "0",
     "max_atmosphering_speed": "1200",
@@ -105,10 +105,10 @@
     "pk": 8
   },
   {
-    "edited": "2014-12-20T21:26:24.783Z",
+    "updatedAt": "2014-12-20T21:26:24.783Z",
     "consumables": "3 years",
     "name": "Death Star",
-    "created": "2014-12-10T16:36:50.509Z",
+    "createdAt": "2014-12-10T16:36:50.509Z",
     "cargo_capacity": "1000000000000",
     "passengers": "843,342",
     "max_atmosphering_speed": "n/a",
@@ -120,10 +120,10 @@
     "pk": 9
   },
   {
-    "edited": "2014-12-20T21:23:49.880Z",
+    "updatedAt": "2014-12-20T21:23:49.880Z",
     "consumables": "2 months",
     "name": "Millennium Falcon",
-    "created": "2014-12-10T16:59:45.094Z",
+    "createdAt": "2014-12-10T16:59:45.094Z",
     "cargo_capacity": "100000",
     "passengers": "6",
     "max_atmosphering_speed": "1050",
@@ -135,10 +135,10 @@
     "pk": 10
   },
   {
-    "edited": "2014-12-20T21:23:49.883Z",
+    "updatedAt": "2014-12-20T21:23:49.883Z",
     "consumables": "1 week",
     "name": "Y-wing",
-    "created": "2014-12-12T11:00:39.817Z",
+    "createdAt": "2014-12-12T11:00:39.817Z",
     "cargo_capacity": "110",
     "passengers": "0",
     "max_atmosphering_speed": "1000km",
@@ -150,10 +150,10 @@
     "pk": 11
   },
   {
-    "edited": "2014-12-20T21:23:49.886Z",
+    "updatedAt": "2014-12-20T21:23:49.886Z",
     "consumables": "1 week",
     "name": "X-wing",
-    "created": "2014-12-12T11:19:05.340Z",
+    "createdAt": "2014-12-12T11:19:05.340Z",
     "cargo_capacity": "110",
     "passengers": "0",
     "max_atmosphering_speed": "1050",
@@ -165,10 +165,10 @@
     "pk": 12
   },
   {
-    "edited": "2014-12-20T21:23:49.889Z",
+    "updatedAt": "2014-12-20T21:23:49.889Z",
     "consumables": "5 days",
     "name": "TIE Advanced x1",
-    "created": "2014-12-12T11:21:32.991Z",
+    "createdAt": "2014-12-12T11:21:32.991Z",
     "cargo_capacity": "150",
     "passengers": "0",
     "max_atmosphering_speed": "1200",
@@ -180,10 +180,10 @@
     "pk": 13
   },
   {
-    "edited": "2014-12-20T21:30:21.672Z",
+    "updatedAt": "2014-12-20T21:30:21.672Z",
     "consumables": "none",
     "name": "Snowspeeder",
-    "created": "2014-12-15T12:22:12Z",
+    "createdAt": "2014-12-15T12:22:12Z",
     "cargo_capacity": "10",
     "passengers": "0",
     "max_atmosphering_speed": "650",
@@ -195,10 +195,10 @@
     "pk": 14
   },
   {
-    "edited": "2014-12-20T21:23:49.893Z",
+    "updatedAt": "2014-12-20T21:23:49.893Z",
     "consumables": "6 years",
     "name": "Executor",
-    "created": "2014-12-15T12:31:42.547Z",
+    "createdAt": "2014-12-15T12:31:42.547Z",
     "cargo_capacity": "250000000",
     "passengers": "38000",
     "max_atmosphering_speed": "n/a",
@@ -210,10 +210,10 @@
     "pk": 15
   },
   {
-    "edited": "2014-12-20T21:30:21.675Z",
+    "updatedAt": "2014-12-20T21:30:21.675Z",
     "consumables": "2 days",
     "name": "TIE bomber",
-    "created": "2014-12-15T12:33:15.838Z",
+    "createdAt": "2014-12-15T12:33:15.838Z",
     "cargo_capacity": "none",
     "passengers": "0",
     "max_atmosphering_speed": "850",
@@ -225,10 +225,10 @@
     "pk": 16
   },
   {
-    "edited": "2014-12-20T21:23:49.895Z",
+    "updatedAt": "2014-12-20T21:23:49.895Z",
     "consumables": "6 months",
     "name": "Rebel transport",
-    "created": "2014-12-15T12:34:52.264Z",
+    "createdAt": "2014-12-15T12:34:52.264Z",
     "cargo_capacity": "19000000",
     "passengers": "90",
     "max_atmosphering_speed": "650",
@@ -240,10 +240,10 @@
     "pk": 17
   },
   {
-    "edited": "2014-12-20T21:30:21.677Z",
+    "updatedAt": "2014-12-20T21:30:21.677Z",
     "consumables": "unknown",
     "name": "AT-AT",
-    "created": "2014-12-15T12:38:25.937Z",
+    "createdAt": "2014-12-15T12:38:25.937Z",
     "cargo_capacity": "1000",
     "passengers": "40",
     "max_atmosphering_speed": "60",
@@ -255,10 +255,10 @@
     "pk": 18
   },
   {
-    "edited": "2014-12-20T21:30:21.679Z",
+    "updatedAt": "2014-12-20T21:30:21.679Z",
     "consumables": "none",
     "name": "AT-ST",
-    "created": "2014-12-15T12:46:42.384Z",
+    "createdAt": "2014-12-15T12:46:42.384Z",
     "cargo_capacity": "200",
     "passengers": "0",
     "max_atmosphering_speed": "90",
@@ -270,10 +270,10 @@
     "pk": 19
   },
   {
-    "edited": "2014-12-20T21:30:21.681Z",
+    "updatedAt": "2014-12-20T21:30:21.681Z",
     "consumables": "1 day",
     "name": "Storm IV Twin-Pod cloud car",
-    "created": "2014-12-15T12:58:50.530Z",
+    "createdAt": "2014-12-15T12:58:50.530Z",
     "cargo_capacity": "10",
     "passengers": "0",
     "max_atmosphering_speed": "1500",
@@ -285,10 +285,10 @@
     "pk": 20
   },
   {
-    "edited": "2014-12-20T21:23:49.897Z",
+    "updatedAt": "2014-12-20T21:23:49.897Z",
     "consumables": "1 month",
     "name": "Slave 1",
-    "created": "2014-12-15T13:00:56.332Z",
+    "createdAt": "2014-12-15T13:00:56.332Z",
     "cargo_capacity": "70000",
     "passengers": "6",
     "max_atmosphering_speed": "1000",
@@ -300,10 +300,10 @@
     "pk": 21
   },
   {
-    "edited": "2014-12-20T21:23:49.900Z",
+    "updatedAt": "2014-12-20T21:23:49.900Z",
     "consumables": "2 months",
     "name": "Imperial shuttle",
-    "created": "2014-12-15T13:04:47.235Z",
+    "createdAt": "2014-12-15T13:04:47.235Z",
     "cargo_capacity": "80000",
     "passengers": "20",
     "max_atmosphering_speed": "850",
@@ -315,10 +315,10 @@
     "pk": 22
   },
   {
-    "edited": "2014-12-20T21:23:49.902Z",
+    "updatedAt": "2014-12-20T21:23:49.902Z",
     "consumables": "2 years",
     "name": "EF76 Nebulon-B escort frigate",
-    "created": "2014-12-15T13:06:30.813Z",
+    "createdAt": "2014-12-15T13:06:30.813Z",
     "cargo_capacity": "6000000",
     "passengers": "75",
     "max_atmosphering_speed": "800",
@@ -330,10 +330,10 @@
     "pk": 23
   },
   {
-    "edited": "2014-12-20T21:30:21.684Z",
+    "updatedAt": "2014-12-20T21:30:21.684Z",
     "consumables": "Live food tanks",
     "name": "Sail barge",
-    "created": "2014-12-18T10:44:14.217Z",
+    "createdAt": "2014-12-18T10:44:14.217Z",
     "cargo_capacity": "2000000",
     "passengers": "500",
     "max_atmosphering_speed": "100",
@@ -345,10 +345,10 @@
     "pk": 24
   },
   {
-    "edited": "2014-12-20T21:30:21.688Z",
+    "updatedAt": "2014-12-20T21:30:21.688Z",
     "consumables": "1 day",
     "name": "Bantha-II cargo skiff",
-    "created": "2014-12-18T10:48:03.208Z",
+    "createdAt": "2014-12-18T10:48:03.208Z",
     "cargo_capacity": "135000",
     "passengers": "16",
     "max_atmosphering_speed": "250",
@@ -360,10 +360,10 @@
     "pk": 25
   },
   {
-    "edited": "2014-12-20T21:30:21.691Z",
+    "updatedAt": "2014-12-20T21:30:21.691Z",
     "consumables": "2 days",
     "name": "TIE/IN interceptor",
-    "created": "2014-12-18T10:50:28.225Z",
+    "createdAt": "2014-12-18T10:50:28.225Z",
     "cargo_capacity": "75",
     "passengers": "0",
     "max_atmosphering_speed": "1250",
@@ -375,10 +375,10 @@
     "pk": 26
   },
   {
-    "edited": "2014-12-20T21:23:49.904Z",
+    "updatedAt": "2014-12-20T21:23:49.904Z",
     "consumables": "2 years",
     "name": "Calamari Cruiser",
-    "created": "2014-12-18T10:54:57.804Z",
+    "createdAt": "2014-12-18T10:54:57.804Z",
     "cargo_capacity": "unknown",
     "passengers": "1200",
     "max_atmosphering_speed": "n/a",
@@ -390,10 +390,10 @@
     "pk": 27
   },
   {
-    "edited": "2014-12-20T21:23:49.907Z",
+    "updatedAt": "2014-12-20T21:23:49.907Z",
     "consumables": "1 week",
     "name": "A-wing",
-    "created": "2014-12-18T11:16:34.542Z",
+    "createdAt": "2014-12-18T11:16:34.542Z",
     "cargo_capacity": "40",
     "passengers": "0",
     "max_atmosphering_speed": "1300",
@@ -405,10 +405,10 @@
     "pk": 28
   },
   {
-    "edited": "2014-12-20T21:23:49.909Z",
+    "updatedAt": "2014-12-20T21:23:49.909Z",
     "consumables": "1 week",
     "name": "B-wing",
-    "created": "2014-12-18T11:18:04.763Z",
+    "createdAt": "2014-12-18T11:18:04.763Z",
     "cargo_capacity": "45",
     "passengers": "0",
     "max_atmosphering_speed": "950",
@@ -420,10 +420,10 @@
     "pk": 29
   },
   {
-    "edited": "2014-12-20T21:30:21.693Z",
+    "updatedAt": "2014-12-20T21:30:21.693Z",
     "consumables": "1 day",
     "name": "Imperial Speeder Bike",
-    "created": "2014-12-18T11:20:04.625Z",
+    "createdAt": "2014-12-18T11:20:04.625Z",
     "cargo_capacity": "4",
     "passengers": "1",
     "max_atmosphering_speed": "360",
@@ -435,10 +435,10 @@
     "pk": 30
   },
   {
-    "edited": "2014-12-20T21:23:49.912Z",
+    "updatedAt": "2014-12-20T21:23:49.912Z",
     "consumables": "unknown",
     "name": "Republic Cruiser",
-    "created": "2014-12-19T17:01:31.488Z",
+    "createdAt": "2014-12-19T17:01:31.488Z",
     "cargo_capacity": "unknown",
     "passengers": "16",
     "max_atmosphering_speed": "900",
@@ -450,10 +450,10 @@
     "pk": 31
   },
   {
-    "edited": "2014-12-20T21:23:49.915Z",
+    "updatedAt": "2014-12-20T21:23:49.915Z",
     "consumables": "500 days",
     "name": "Droid control ship",
-    "created": "2014-12-19T17:04:06.323Z",
+    "createdAt": "2014-12-19T17:04:06.323Z",
     "cargo_capacity": "4000000000",
     "passengers": "139000",
     "max_atmosphering_speed": "n/a",
@@ -465,10 +465,10 @@
     "pk": 32
   },
   {
-    "edited": "2014-12-20T21:30:21.697Z",
+    "updatedAt": "2014-12-20T21:30:21.697Z",
     "consumables": "none",
     "name": "Vulture Droid",
-    "created": "2014-12-19T17:09:53.584Z",
+    "createdAt": "2014-12-19T17:09:53.584Z",
     "cargo_capacity": "0",
     "passengers": "0",
     "max_atmosphering_speed": "1200",
@@ -480,10 +480,10 @@
     "pk": 33
   },
   {
-    "edited": "2014-12-20T21:30:21.700Z",
+    "updatedAt": "2014-12-20T21:30:21.700Z",
     "consumables": "unknown",
     "name": "Multi-Troop Transport",
-    "created": "2014-12-19T17:12:04.400Z",
+    "createdAt": "2014-12-19T17:12:04.400Z",
     "cargo_capacity": "12000",
     "passengers": "112",
     "max_atmosphering_speed": "35",
@@ -495,10 +495,10 @@
     "pk": 34
   },
   {
-    "edited": "2014-12-20T21:30:21.703Z",
+    "updatedAt": "2014-12-20T21:30:21.703Z",
     "consumables": "unknown",
     "name": "Armored Assault Tank",
-    "created": "2014-12-19T17:13:29.799Z",
+    "createdAt": "2014-12-19T17:13:29.799Z",
     "cargo_capacity": "unknown",
     "passengers": "6",
     "max_atmosphering_speed": "55",
@@ -510,10 +510,10 @@
     "pk": 35
   },
   {
-    "edited": "2014-12-20T21:30:21.705Z",
+    "updatedAt": "2014-12-20T21:30:21.705Z",
     "consumables": "none",
     "name": "Single Trooper Aerial Platform",
-    "created": "2014-12-19T17:15:09.511Z",
+    "createdAt": "2014-12-19T17:15:09.511Z",
     "cargo_capacity": "none",
     "passengers": "0",
     "max_atmosphering_speed": "400",
@@ -525,10 +525,10 @@
     "pk": 36
   },
   {
-    "edited": "2014-12-20T21:30:21.707Z",
+    "updatedAt": "2014-12-20T21:30:21.707Z",
     "consumables": "1 day",
     "name": "C-9979 landing craft",
-    "created": "2014-12-19T17:20:36.373Z",
+    "createdAt": "2014-12-19T17:20:36.373Z",
     "cargo_capacity": "1800000",
     "passengers": "284",
     "max_atmosphering_speed": "587",
@@ -540,10 +540,10 @@
     "pk": 37
   },
   {
-    "edited": "2014-12-20T21:30:21.710Z",
+    "updatedAt": "2014-12-20T21:30:21.710Z",
     "consumables": "unknown",
     "name": "Tribubble bongo",
-    "created": "2014-12-19T17:37:37.924Z",
+    "createdAt": "2014-12-19T17:37:37.924Z",
     "cargo_capacity": "1600",
     "passengers": "2",
     "max_atmosphering_speed": "85",
@@ -555,10 +555,10 @@
     "pk": 38
   },
   {
-    "edited": "2014-12-20T21:23:49.917Z",
+    "updatedAt": "2014-12-20T21:23:49.917Z",
     "consumables": "7 days",
     "name": "Naboo fighter",
-    "created": "2014-12-19T17:39:17.582Z",
+    "createdAt": "2014-12-19T17:39:17.582Z",
     "cargo_capacity": "65",
     "passengers": "0",
     "max_atmosphering_speed": "1100",
@@ -570,10 +570,10 @@
     "pk": 39
   },
   {
-    "edited": "2014-12-20T21:23:49.919Z",
+    "updatedAt": "2014-12-20T21:23:49.919Z",
     "consumables": "unknown",
     "name": "Naboo Royal Starship",
-    "created": "2014-12-19T17:45:03.506Z",
+    "createdAt": "2014-12-19T17:45:03.506Z",
     "cargo_capacity": "unknown",
     "passengers": "unknown",
     "max_atmosphering_speed": "920",
@@ -585,10 +585,10 @@
     "pk": 40
   },
   {
-    "edited": "2014-12-20T21:23:49.922Z",
+    "updatedAt": "2014-12-20T21:23:49.922Z",
     "consumables": "30 days",
     "name": "Scimitar",
-    "created": "2014-12-20T09:39:56.116Z",
+    "createdAt": "2014-12-20T09:39:56.116Z",
     "cargo_capacity": "2500000",
     "passengers": "6",
     "max_atmosphering_speed": "1180",
@@ -600,10 +600,10 @@
     "pk": 41
   },
   {
-    "edited": "2014-12-20T21:30:21.712Z",
+    "updatedAt": "2014-12-20T21:30:21.712Z",
     "consumables": "unknown",
     "name": "Sith speeder",
-    "created": "2014-12-20T10:09:56.095Z",
+    "createdAt": "2014-12-20T10:09:56.095Z",
     "cargo_capacity": "2",
     "passengers": "0",
     "max_atmosphering_speed": "180",
@@ -615,10 +615,10 @@
     "pk": 42
   },
   {
-    "edited": "2014-12-20T21:23:49.925Z",
+    "updatedAt": "2014-12-20T21:23:49.925Z",
     "consumables": "1 year",
     "name": "J-type diplomatic barge",
-    "created": "2014-12-20T11:05:51.237Z",
+    "createdAt": "2014-12-20T11:05:51.237Z",
     "cargo_capacity": "unknown",
     "passengers": "10",
     "max_atmosphering_speed": "2000",
@@ -630,10 +630,10 @@
     "pk": 43
   },
   {
-    "edited": "2014-12-20T21:30:21.714Z",
+    "updatedAt": "2014-12-20T21:30:21.714Z",
     "consumables": "none",
     "name": "Zephyr-G swoop bike",
-    "created": "2014-12-20T16:24:16.026Z",
+    "createdAt": "2014-12-20T16:24:16.026Z",
     "cargo_capacity": "200",
     "passengers": "1",
     "max_atmosphering_speed": "350",
@@ -645,10 +645,10 @@
     "pk": 44
   },
   {
-    "edited": "2014-12-20T21:30:21.716Z",
+    "updatedAt": "2014-12-20T21:30:21.716Z",
     "consumables": "unknown",
     "name": "Koro-2 Exodrive airspeeder",
-    "created": "2014-12-20T17:17:33.526Z",
+    "createdAt": "2014-12-20T17:17:33.526Z",
     "cargo_capacity": "80",
     "passengers": "1",
     "max_atmosphering_speed": "800",
@@ -660,10 +660,10 @@
     "pk": 45
   },
   {
-    "edited": "2014-12-20T21:30:21.719Z",
+    "updatedAt": "2014-12-20T21:30:21.719Z",
     "consumables": "unknown",
     "name": "XJ-6 airspeeder",
-    "created": "2014-12-20T17:19:19.991Z",
+    "createdAt": "2014-12-20T17:19:19.991Z",
     "cargo_capacity": "unknown",
     "passengers": "1",
     "max_atmosphering_speed": "720",
@@ -675,10 +675,10 @@
     "pk": 46
   },
   {
-    "edited": "2014-12-20T21:23:49.928Z",
+    "updatedAt": "2014-12-20T21:23:49.928Z",
     "consumables": "unknown",
     "name": "AA-9 Coruscant freighter",
-    "created": "2014-12-20T17:24:23.509Z",
+    "createdAt": "2014-12-20T17:24:23.509Z",
     "cargo_capacity": "unknown",
     "passengers": "30000",
     "max_atmosphering_speed": "unknown",
@@ -690,10 +690,10 @@
     "pk": 47
   },
   {
-    "edited": "2014-12-20T21:23:49.930Z",
+    "updatedAt": "2014-12-20T21:23:49.930Z",
     "consumables": "7 days",
     "name": "Jedi starfighter",
-    "created": "2014-12-20T17:35:23.906Z",
+    "createdAt": "2014-12-20T17:35:23.906Z",
     "cargo_capacity": "60",
     "passengers": "0",
     "max_atmosphering_speed": "1150",
@@ -705,10 +705,10 @@
     "pk": 48
   },
   {
-    "edited": "2014-12-20T21:23:49.932Z",
+    "updatedAt": "2014-12-20T21:23:49.932Z",
     "consumables": "unknown",
     "name": "H-type Nubian yacht",
-    "created": "2014-12-20T17:46:46.847Z",
+    "createdAt": "2014-12-20T17:46:46.847Z",
     "cargo_capacity": "unknown",
     "passengers": "unknown",
     "max_atmosphering_speed": "8000",
@@ -720,10 +720,10 @@
     "pk": 49
   },
   {
-    "edited": "2014-12-20T21:30:21.723Z",
+    "updatedAt": "2014-12-20T21:30:21.723Z",
     "consumables": "unknown",
     "name": "LAAT/i",
-    "created": "2014-12-20T18:01:21.014Z",
+    "createdAt": "2014-12-20T18:01:21.014Z",
     "cargo_capacity": "170",
     "passengers": "30",
     "max_atmosphering_speed": "620",
@@ -735,10 +735,10 @@
     "pk": 50
   },
   {
-    "edited": "2014-12-20T21:30:21.725Z",
+    "updatedAt": "2014-12-20T21:30:21.725Z",
     "consumables": "unknown",
     "name": "LAAT/c",
-    "created": "2014-12-20T18:02:46.802Z",
+    "createdAt": "2014-12-20T18:02:46.802Z",
     "cargo_capacity": "40000",
     "passengers": "0",
     "max_atmosphering_speed": "620",
@@ -750,10 +750,10 @@
     "pk": 51
   },
   {
-    "edited": "2014-12-20T21:23:49.935Z",
+    "updatedAt": "2014-12-20T21:23:49.935Z",
     "consumables": "2 years",
     "name": "Republic Assault ship",
-    "created": "2014-12-20T18:08:42.926Z",
+    "createdAt": "2014-12-20T18:08:42.926Z",
     "cargo_capacity": "11250000",
     "passengers": "16000",
     "max_atmosphering_speed": "unknown",
@@ -765,10 +765,10 @@
     "pk": 52
   },
   {
-    "edited": "2014-12-20T21:30:21.728Z",
+    "updatedAt": "2014-12-20T21:30:21.728Z",
     "consumables": "21 days",
     "name": "AT-TE",
-    "created": "2014-12-20T18:10:07.560Z",
+    "createdAt": "2014-12-20T18:10:07.560Z",
     "cargo_capacity": "10000",
     "passengers": "36",
     "max_atmosphering_speed": "60",
@@ -780,10 +780,10 @@
     "pk": 53
   },
   {
-    "edited": "2014-12-20T21:30:21.731Z",
+    "updatedAt": "2014-12-20T21:30:21.731Z",
     "consumables": "7 days",
     "name": "SPHA",
-    "created": "2014-12-20T18:12:32.315Z",
+    "createdAt": "2014-12-20T18:12:32.315Z",
     "cargo_capacity": "500",
     "passengers": "30",
     "max_atmosphering_speed": "35",
@@ -795,10 +795,10 @@
     "pk": 54
   },
   {
-    "edited": "2014-12-20T21:30:21.735Z",
+    "updatedAt": "2014-12-20T21:30:21.735Z",
     "consumables": "unknown",
     "name": "Flitknot speeder",
-    "created": "2014-12-20T18:15:20.312Z",
+    "createdAt": "2014-12-20T18:15:20.312Z",
     "cargo_capacity": "unknown",
     "passengers": "0",
     "max_atmosphering_speed": "634",
@@ -810,10 +810,10 @@
     "pk": 55
   },
   {
-    "edited": "2014-12-20T21:30:21.739Z",
+    "updatedAt": "2014-12-20T21:30:21.739Z",
     "consumables": "7 days",
     "name": "Neimoidian shuttle",
-    "created": "2014-12-20T18:25:44.912Z",
+    "createdAt": "2014-12-20T18:25:44.912Z",
     "cargo_capacity": "1000",
     "passengers": "6",
     "max_atmosphering_speed": "880",
@@ -825,10 +825,10 @@
     "pk": 56
   },
   {
-    "edited": "2014-12-20T21:30:21.742Z",
+    "updatedAt": "2014-12-20T21:30:21.742Z",
     "consumables": "unknown",
     "name": "Geonosian starfighter",
-    "created": "2014-12-20T18:34:12.541Z",
+    "createdAt": "2014-12-20T18:34:12.541Z",
     "cargo_capacity": "unknown",
     "passengers": "0",
     "max_atmosphering_speed": "20000",
@@ -840,10 +840,10 @@
     "pk": 57
   },
   {
-    "edited": "2014-12-20T21:23:49.937Z",
+    "updatedAt": "2014-12-20T21:23:49.937Z",
     "consumables": "7 days",
     "name": "Solar Sailer",
-    "created": "2014-12-20T18:37:56.969Z",
+    "createdAt": "2014-12-20T18:37:56.969Z",
     "cargo_capacity": "240",
     "passengers": "11",
     "max_atmosphering_speed": "1600",
@@ -855,10 +855,10 @@
     "pk": 58
   },
   {
-    "edited": "2014-12-20T21:23:49.941Z",
+    "updatedAt": "2014-12-20T21:23:49.941Z",
     "consumables": "4 years",
     "name": "Trade Federation cruiser",
-    "created": "2014-12-20T19:40:21.902Z",
+    "createdAt": "2014-12-20T19:40:21.902Z",
     "cargo_capacity": "50000000",
     "passengers": "48247",
     "max_atmosphering_speed": "1050",
@@ -870,10 +870,10 @@
     "pk": 59
   },
   {
-    "edited": "2014-12-20T21:30:21.745Z",
+    "updatedAt": "2014-12-20T21:30:21.745Z",
     "consumables": "none",
     "name": "Tsmeu-6 personal wheel bike",
-    "created": "2014-12-20T19:43:54.870Z",
+    "createdAt": "2014-12-20T19:43:54.870Z",
     "cargo_capacity": "10",
     "passengers": "1",
     "max_atmosphering_speed": "330",
@@ -885,10 +885,10 @@
     "pk": 60
   },
   {
-    "edited": "2014-12-20T21:23:49.944Z",
+    "updatedAt": "2014-12-20T21:23:49.944Z",
     "consumables": "56 days",
     "name": "Theta-class T-2c shuttle",
-    "created": "2014-12-20T19:48:40.409Z",
+    "createdAt": "2014-12-20T19:48:40.409Z",
     "cargo_capacity": "50000",
     "passengers": "16",
     "max_atmosphering_speed": "2000",
@@ -900,10 +900,10 @@
     "pk": 61
   },
   {
-    "edited": "2014-12-20T21:30:21.749Z",
+    "updatedAt": "2014-12-20T21:30:21.749Z",
     "consumables": "unknown",
     "name": "Emergency Firespeeder",
-    "created": "2014-12-20T19:50:58.559Z",
+    "createdAt": "2014-12-20T19:50:58.559Z",
     "cargo_capacity": "unknown",
     "passengers": "unknown",
     "max_atmosphering_speed": "unknown",
@@ -915,10 +915,10 @@
     "pk": 62
   },
   {
-    "edited": "2014-12-20T21:23:49.946Z",
+    "updatedAt": "2014-12-20T21:23:49.946Z",
     "consumables": "2 years",
     "name": "Republic attack cruiser",
-    "created": "2014-12-20T19:52:56.232Z",
+    "createdAt": "2014-12-20T19:52:56.232Z",
     "cargo_capacity": "20000000",
     "passengers": "2000",
     "max_atmosphering_speed": "975",
@@ -930,10 +930,10 @@
     "pk": 63
   },
   {
-    "edited": "2014-12-20T21:23:49.948Z",
+    "updatedAt": "2014-12-20T21:23:49.948Z",
     "consumables": "unknown",
     "name": "Naboo star skiff",
-    "created": "2014-12-20T19:55:15.396Z",
+    "createdAt": "2014-12-20T19:55:15.396Z",
     "cargo_capacity": "unknown",
     "passengers": "3",
     "max_atmosphering_speed": "1050",
@@ -945,10 +945,10 @@
     "pk": 64
   },
   {
-    "edited": "2014-12-20T21:23:49.951Z",
+    "updatedAt": "2014-12-20T21:23:49.951Z",
     "consumables": "2 days",
     "name": "Jedi Interceptor",
-    "created": "2014-12-20T19:56:57.468Z",
+    "createdAt": "2014-12-20T19:56:57.468Z",
     "cargo_capacity": "60",
     "passengers": "0",
     "max_atmosphering_speed": "1500",
@@ -960,10 +960,10 @@
     "pk": 65
   },
   {
-    "edited": "2014-12-20T21:23:49.953Z",
+    "updatedAt": "2014-12-20T21:23:49.953Z",
     "consumables": "5 days",
     "name": "arc-170",
-    "created": "2014-12-20T20:03:48.603Z",
+    "createdAt": "2014-12-20T20:03:48.603Z",
     "cargo_capacity": "110",
     "passengers": "0",
     "max_atmosphering_speed": "1000",
@@ -975,10 +975,10 @@
     "pk": 66
   },
   {
-    "edited": "2014-12-20T21:30:21.752Z",
+    "updatedAt": "2014-12-20T21:30:21.752Z",
     "consumables": "none",
     "name": "Droid tri-fighter",
-    "created": "2014-12-20T20:05:19.992Z",
+    "createdAt": "2014-12-20T20:05:19.992Z",
     "cargo_capacity": "0",
     "passengers": "0",
     "max_atmosphering_speed": "1180",
@@ -990,10 +990,10 @@
     "pk": 67
   },
   {
-    "edited": "2014-12-20T21:23:49.956Z",
+    "updatedAt": "2014-12-20T21:23:49.956Z",
     "consumables": "2 years",
     "name": "Banking clan frigte",
-    "created": "2014-12-20T20:07:11.538Z",
+    "createdAt": "2014-12-20T20:07:11.538Z",
     "cargo_capacity": "40000000",
     "passengers": "unknown",
     "max_atmosphering_speed": "unknown",
@@ -1005,10 +1005,10 @@
     "pk": 68
   },
   {
-    "edited": "2014-12-20T21:30:21.756Z",
+    "updatedAt": "2014-12-20T21:30:21.756Z",
     "consumables": "3 days",
     "name": "Oevvaor jet catamaran",
-    "created": "2014-12-20T20:20:53.931Z",
+    "createdAt": "2014-12-20T20:20:53.931Z",
     "cargo_capacity": "50",
     "passengers": "2",
     "max_atmosphering_speed": "420",
@@ -1020,10 +1020,10 @@
     "pk": 69
   },
   {
-    "edited": "2014-12-20T21:30:21.759Z",
+    "updatedAt": "2014-12-20T21:30:21.759Z",
     "consumables": "none",
     "name": "Raddaugh Gnasp fluttercraft",
-    "created": "2014-12-20T20:21:55.648Z",
+    "createdAt": "2014-12-20T20:21:55.648Z",
     "cargo_capacity": "20",
     "passengers": "0",
     "max_atmosphering_speed": "310",
@@ -1035,10 +1035,10 @@
     "pk": 70
   },
   {
-    "edited": "2014-12-20T21:30:21.762Z",
+    "updatedAt": "2014-12-20T21:30:21.762Z",
     "consumables": "20 days",
     "name": "Clone turbo tank",
-    "created": "2014-12-20T20:24:45.587Z",
+    "createdAt": "2014-12-20T20:24:45.587Z",
     "cargo_capacity": "30000",
     "passengers": "300",
     "max_atmosphering_speed": "160",
@@ -1050,10 +1050,10 @@
     "pk": 71
   },
   {
-    "edited": "2014-12-20T21:30:21.765Z",
+    "updatedAt": "2014-12-20T21:30:21.765Z",
     "consumables": "none",
     "name": "Corporate Alliance tank droid",
-    "created": "2014-12-20T20:26:55.522Z",
+    "createdAt": "2014-12-20T20:26:55.522Z",
     "cargo_capacity": "none",
     "passengers": "4",
     "max_atmosphering_speed": "100",
@@ -1065,10 +1065,10 @@
     "pk": 72
   },
   {
-    "edited": "2014-12-20T21:30:21.768Z",
+    "updatedAt": "2014-12-20T21:30:21.768Z",
     "consumables": "none",
     "name": "Droid gunship",
-    "created": "2014-12-20T20:32:05.687Z",
+    "createdAt": "2014-12-20T20:32:05.687Z",
     "cargo_capacity": "0",
     "passengers": "0",
     "max_atmosphering_speed": "820",
@@ -1080,10 +1080,10 @@
     "pk": 73
   },
   {
-    "edited": "2014-12-20T21:23:49.959Z",
+    "updatedAt": "2014-12-20T21:23:49.959Z",
     "consumables": "7 days",
     "name": "Belbullab-22 starfighter",
-    "created": "2014-12-20T20:38:05.031Z",
+    "createdAt": "2014-12-20T20:38:05.031Z",
     "cargo_capacity": "140",
     "passengers": "0",
     "max_atmosphering_speed": "1100",
@@ -1095,10 +1095,10 @@
     "pk": 74
   },
   {
-    "edited": "2014-12-20T21:23:49.961Z",
+    "updatedAt": "2014-12-20T21:23:49.961Z",
     "consumables": "15 hours",
     "name": "V-wing",
-    "created": "2014-12-20T20:43:04.349Z",
+    "createdAt": "2014-12-20T20:43:04.349Z",
     "cargo_capacity": "60",
     "passengers": "0",
     "max_atmosphering_speed": "1050",
@@ -1110,10 +1110,10 @@
     "pk": 75
   },
   {
-    "edited": "2014-12-20T21:30:21.772Z",
+    "updatedAt": "2014-12-20T21:30:21.772Z",
     "consumables": "1 day",
     "name": "AT-RT",
-    "created": "2014-12-20T20:47:49.189Z",
+    "createdAt": "2014-12-20T20:47:49.189Z",
     "cargo_capacity": "20",
     "passengers": "0",
     "max_atmosphering_speed": "90",
