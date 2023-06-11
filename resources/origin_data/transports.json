@@ -12,7 +12,7 @@
     "model": "CR90 corvette",
     "cost_in_credits": "3500000",
     "manufacturer": "Corellian Engineering Corporation",
-    "pk": 2
+    "_id": 2
   },
   {
     "updatedAt": "2014-12-20T21:23:49.870Z",
@@ -27,7 +27,7 @@
     "model": "Imperial I-class Star Destroyer",
     "cost_in_credits": "150000000",
     "manufacturer": "Kuat Drive Yards",
-    "pk": 3
+    "_id": 3
   },
   {
     "updatedAt": "2014-12-20T21:30:21.661Z",
@@ -42,7 +42,7 @@
     "model": "Digger Crawler",
     "cost_in_credits": "150000",
     "manufacturer": "Corellia Mining Corporation",
-    "pk": 4
+    "_id": 4
   },
   {
     "updatedAt": "2014-12-20T21:23:49.873Z",
@@ -57,7 +57,7 @@
     "model": "Sentinel-class landing craft",
     "cost_in_credits": "240000",
     "manufacturer": "Sienar Fleet Systems, Cyngus Spaceworks",
-    "pk": 5
+    "_id": 5
   },
   {
     "updatedAt": "2014-12-20T21:30:21.665Z",
@@ -72,7 +72,7 @@
     "model": "T-16 skyhopper",
     "cost_in_credits": "14500",
     "manufacturer": "Incom Corporation",
-    "pk": 6
+    "_id": 6
   },
   {
     "updatedAt": "2014-12-20T21:30:21.668Z",
@@ -87,7 +87,7 @@
     "model": "X-34 landspeeder",
     "cost_in_credits": "10550",
     "manufacturer": "SoroSuub Corporation",
-    "pk": 7
+    "_id": 7
   },
   {
     "updatedAt": "2014-12-20T21:30:21.670Z",
@@ -102,7 +102,7 @@
     "model": "Twin Ion Engine/Ln Starfighter",
     "cost_in_credits": "unknown",
     "manufacturer": "Sienar Fleet Systems",
-    "pk": 8
+    "_id": 8
   },
   {
     "updatedAt": "2014-12-20T21:26:24.783Z",
@@ -117,7 +117,7 @@
     "model": "DS-1 Orbital Battle Station",
     "cost_in_credits": "1000000000000",
     "manufacturer": "Imperial Department of Military Research, Sienar Fleet Systems",
-    "pk": 9
+    "_id": 9
   },
   {
     "updatedAt": "2014-12-20T21:23:49.880Z",
@@ -132,7 +132,7 @@
     "model": "YT-1300 light freighter",
     "cost_in_credits": "100000",
     "manufacturer": "Corellian Engineering Corporation",
-    "pk": 10
+    "_id": 10
   },
   {
     "updatedAt": "2014-12-20T21:23:49.883Z",
@@ -147,7 +147,7 @@
     "model": "BTL Y-wing",
     "cost_in_credits": "134999",
     "manufacturer": "Koensayr Manufacturing",
-    "pk": 11
+    "_id": 11
   },
   {
     "updatedAt": "2014-12-20T21:23:49.886Z",
@@ -162,7 +162,7 @@
     "model": "T-65 X-wing",
     "cost_in_credits": "149999",
     "manufacturer": "Incom Corporation",
-    "pk": 12
+    "_id": 12
   },
   {
     "updatedAt": "2014-12-20T21:23:49.889Z",
@@ -177,7 +177,7 @@
     "model": "Twin Ion Engine Advanced x1",
     "cost_in_credits": "unknown",
     "manufacturer": "Sienar Fleet Systems",
-    "pk": 13
+    "_id": 13
   },
   {
     "updatedAt": "2014-12-20T21:30:21.672Z",
@@ -192,7 +192,7 @@
     "model": "t-47 airspeeder",
     "cost_in_credits": "unknown",
     "manufacturer": "Incom corporation",
-    "pk": 14
+    "_id": 14
   },
   {
     "updatedAt": "2014-12-20T21:23:49.893Z",
@@ -207,7 +207,7 @@
     "model": "Executor-class star dreadnought",
     "cost_in_credits": "1143350000",
     "manufacturer": "Kuat Drive Yards, Fondor Shipyards",
-    "pk": 15
+    "_id": 15
   },
   {
     "updatedAt": "2014-12-20T21:30:21.675Z",
@@ -222,7 +222,7 @@
     "model": "TIE/sa bomber",
     "cost_in_credits": "unknown",
     "manufacturer": "Sienar Fleet Systems",
-    "pk": 16
+    "_id": 16
   },
   {
     "updatedAt": "2014-12-20T21:23:49.895Z",
@@ -237,7 +237,7 @@
     "model": "GR-75 medium transport",
     "cost_in_credits": "unknown",
     "manufacturer": "Gallofree Yards, Inc.",
-    "pk": 17
+    "_id": 17
   },
   {
     "updatedAt": "2014-12-20T21:30:21.677Z",
@@ -252,7 +252,7 @@
     "model": "All Terrain Armored Transport",
     "cost_in_credits": "unknown",
     "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
-    "pk": 18
+    "_id": 18
   },
   {
     "updatedAt": "2014-12-20T21:30:21.679Z",
@@ -267,7 +267,7 @@
     "model": "All Terrain Scout Transport",
     "cost_in_credits": "unknown",
     "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
-    "pk": 19
+    "_id": 19
   },
   {
     "updatedAt": "2014-12-20T21:30:21.681Z",
@@ -282,7 +282,7 @@
     "model": "Storm IV Twin-Pod",
     "cost_in_credits": "75000",
     "manufacturer": "Bespin Motors",
-    "pk": 20
+    "_id": 20
   },
   {
     "updatedAt": "2014-12-20T21:23:49.897Z",
@@ -297,7 +297,7 @@
     "model": "Firespray-31-class patrol and attack",
     "cost_in_credits": "unknown",
     "manufacturer": "Kuat Systems Engineering",
-    "pk": 21
+    "_id": 21
   },
   {
     "updatedAt": "2014-12-20T21:23:49.900Z",
@@ -312,7 +312,7 @@
     "model": "Lambda-class T-4a shuttle",
     "cost_in_credits": "240000",
     "manufacturer": "Sienar Fleet Systems",
-    "pk": 22
+    "_id": 22
   },
   {
     "updatedAt": "2014-12-20T21:23:49.902Z",
@@ -327,7 +327,7 @@
     "model": "EF76 Nebulon-B escort frigate",
     "cost_in_credits": "8500000",
     "manufacturer": "Kuat Drive Yards",
-    "pk": 23
+    "_id": 23
   },
   {
     "updatedAt": "2014-12-20T21:30:21.684Z",
@@ -342,7 +342,7 @@
     "model": "Modified Luxury Sail Barge",
     "cost_in_credits": "285000",
     "manufacturer": "Ubrikkian Industries Custom Vehicle Division",
-    "pk": 24
+    "_id": 24
   },
   {
     "updatedAt": "2014-12-20T21:30:21.688Z",
@@ -357,7 +357,7 @@
     "model": "Bantha-II",
     "cost_in_credits": "8000",
     "manufacturer": "Ubrikkian Industries",
-    "pk": 25
+    "_id": 25
   },
   {
     "updatedAt": "2014-12-20T21:30:21.691Z",
@@ -372,7 +372,7 @@
     "model": "Twin Ion Engine Interceptor",
     "cost_in_credits": "unknown",
     "manufacturer": "Sienar Fleet Systems",
-    "pk": 26
+    "_id": 26
   },
   {
     "updatedAt": "2014-12-20T21:23:49.904Z",
@@ -387,7 +387,7 @@
     "model": "MC80 Liberty type Star Cruiser",
     "cost_in_credits": "104000000",
     "manufacturer": "Mon Calamari shipyards",
-    "pk": 27
+    "_id": 27
   },
   {
     "updatedAt": "2014-12-20T21:23:49.907Z",
@@ -402,7 +402,7 @@
     "model": "RZ-1 A-wing Interceptor",
     "cost_in_credits": "175000",
     "manufacturer": "Alliance Underground Engineering, Incom Corporation",
-    "pk": 28
+    "_id": 28
   },
   {
     "updatedAt": "2014-12-20T21:23:49.909Z",
@@ -417,7 +417,7 @@
     "model": "A/SF-01 B-wing starfighter",
     "cost_in_credits": "220000",
     "manufacturer": "Slayn & Korpil",
-    "pk": 29
+    "_id": 29
   },
   {
     "updatedAt": "2014-12-20T21:30:21.693Z",
@@ -432,7 +432,7 @@
     "model": "74-Z speeder bike",
     "cost_in_credits": "8000",
     "manufacturer": "Aratech Repulsor Company",
-    "pk": 30
+    "_id": 30
   },
   {
     "updatedAt": "2014-12-20T21:23:49.912Z",
@@ -447,7 +447,7 @@
     "model": "Consular-class cruiser",
     "cost_in_credits": "unknown",
     "manufacturer": "Corellian Engineering Corporation",
-    "pk": 31
+    "_id": 31
   },
   {
     "updatedAt": "2014-12-20T21:23:49.915Z",
@@ -462,7 +462,7 @@
     "model": "Lucrehulk-class Droid Control Ship",
     "cost_in_credits": "unknown",
     "manufacturer": "Hoersch-Kessel Drive, Inc.",
-    "pk": 32
+    "_id": 32
   },
   {
     "updatedAt": "2014-12-20T21:30:21.697Z",
@@ -477,7 +477,7 @@
     "model": "Vulture-class droid starfighter",
     "cost_in_credits": "unknown",
     "manufacturer": "Haor Chall Engineering, Baktoid Armor Workshop",
-    "pk": 33
+    "_id": 33
   },
   {
     "updatedAt": "2014-12-20T21:30:21.700Z",
@@ -492,7 +492,7 @@
     "model": "Multi-Troop Transport",
     "cost_in_credits": "138000",
     "manufacturer": "Baktoid Armor Workshop",
-    "pk": 34
+    "_id": 34
   },
   {
     "updatedAt": "2014-12-20T21:30:21.703Z",
@@ -507,7 +507,7 @@
     "model": "Armoured Assault Tank",
     "cost_in_credits": "unknown",
     "manufacturer": "Baktoid Armor Workshop",
-    "pk": 35
+    "_id": 35
   },
   {
     "updatedAt": "2014-12-20T21:30:21.705Z",
@@ -522,7 +522,7 @@
     "model": "Single Trooper Aerial Platform",
     "cost_in_credits": "2500",
     "manufacturer": "Baktoid Armor Workshop",
-    "pk": 36
+    "_id": 36
   },
   {
     "updatedAt": "2014-12-20T21:30:21.707Z",
@@ -537,7 +537,7 @@
     "model": "C-9979 landing craft",
     "cost_in_credits": "200000",
     "manufacturer": "Haor Chall Engineering",
-    "pk": 37
+    "_id": 37
   },
   {
     "updatedAt": "2014-12-20T21:30:21.710Z",
@@ -552,7 +552,7 @@
     "model": "Tribubble bongo",
     "cost_in_credits": "unknown",
     "manufacturer": "Otoh Gunga Bongameken Cooperative",
-    "pk": 38
+    "_id": 38
   },
   {
     "updatedAt": "2014-12-20T21:23:49.917Z",
@@ -567,7 +567,7 @@
     "model": "N-1 starfighter",
     "cost_in_credits": "200000",
     "manufacturer": "Theed Palace Space Vessel Engineering Corps",
-    "pk": 39
+    "_id": 39
   },
   {
     "updatedAt": "2014-12-20T21:23:49.919Z",
@@ -582,7 +582,7 @@
     "model": "J-type 327 Nubian royal starship",
     "cost_in_credits": "unknown",
     "manufacturer": "Theed Palace Space Vessel Engineering Corps, Nubia Star Drives",
-    "pk": 40
+    "_id": 40
   },
   {
     "updatedAt": "2014-12-20T21:23:49.922Z",
@@ -597,7 +597,7 @@
     "model": "Star Courier",
     "cost_in_credits": "55000000",
     "manufacturer": "Republic Sienar Systems",
-    "pk": 41
+    "_id": 41
   },
   {
     "updatedAt": "2014-12-20T21:30:21.712Z",
@@ -612,7 +612,7 @@
     "model": "FC-20 speeder bike",
     "cost_in_credits": "4000",
     "manufacturer": "Razalon",
-    "pk": 42
+    "_id": 42
   },
   {
     "updatedAt": "2014-12-20T21:23:49.925Z",
@@ -627,7 +627,7 @@
     "model": "J-type diplomatic barge",
     "cost_in_credits": "2000000",
     "manufacturer": "Theed Palace Space Vessel Engineering Corps, Nubia Star Drives",
-    "pk": 43
+    "_id": 43
   },
   {
     "updatedAt": "2014-12-20T21:30:21.714Z",
@@ -642,7 +642,7 @@
     "model": "Zephyr-G swoop bike",
     "cost_in_credits": "5750",
     "manufacturer": "Mobquet Swoops and Speeders",
-    "pk": 44
+    "_id": 44
   },
   {
     "updatedAt": "2014-12-20T21:30:21.716Z",
@@ -657,7 +657,7 @@
     "model": "Koro-2 Exodrive airspeeder",
     "cost_in_credits": "unknown",
     "manufacturer": "Desler Gizh Outworld Mobility Corporation",
-    "pk": 45
+    "_id": 45
   },
   {
     "updatedAt": "2014-12-20T21:30:21.719Z",
@@ -672,7 +672,7 @@
     "model": "XJ-6 airspeeder",
     "cost_in_credits": "unknown",
     "manufacturer": "Narglatch AirTech prefabricated kit",
-    "pk": 46
+    "_id": 46
   },
   {
     "updatedAt": "2014-12-20T21:23:49.928Z",
@@ -687,7 +687,7 @@
     "model": "Botajef AA-9 Freighter-Liner",
     "cost_in_credits": "unknown",
     "manufacturer": "Botajef Shipyards",
-    "pk": 47
+    "_id": 47
   },
   {
     "updatedAt": "2014-12-20T21:23:49.930Z",
@@ -702,7 +702,7 @@
     "model": "Delta-7 Aethersprite-class interceptor",
     "cost_in_credits": "180000",
     "manufacturer": "Kuat Systems Engineering",
-    "pk": 48
+    "_id": 48
   },
   {
     "updatedAt": "2014-12-20T21:23:49.932Z",
@@ -717,7 +717,7 @@
     "model": "H-type Nubian yacht",
     "cost_in_credits": "unknown",
     "manufacturer": "Theed Palace Space Vessel Engineering Corps",
-    "pk": 49
+    "_id": 49
   },
   {
     "updatedAt": "2014-12-20T21:30:21.723Z",
@@ -732,7 +732,7 @@
     "model": "Low Altitude Assault Transport/infrantry",
     "cost_in_credits": "unknown",
     "manufacturer": "Rothana Heavy Engineering",
-    "pk": 50
+    "_id": 50
   },
   {
     "updatedAt": "2014-12-20T21:30:21.725Z",
@@ -747,7 +747,7 @@
     "model": "Low Altitude Assault Transport/carrier",
     "cost_in_credits": "unknown",
     "manufacturer": "Rothana Heavy Engineering",
-    "pk": 51
+    "_id": 51
   },
   {
     "updatedAt": "2014-12-20T21:23:49.935Z",
@@ -762,7 +762,7 @@
     "model": "Acclamator I-class assault ship",
     "cost_in_credits": "unknown",
     "manufacturer": "Rothana Heavy Engineering",
-    "pk": 52
+    "_id": 52
   },
   {
     "updatedAt": "2014-12-20T21:30:21.728Z",
@@ -777,7 +777,7 @@
     "model": "All Terrain Tactical Enforcer",
     "cost_in_credits": "unknown",
     "manufacturer": "Rothana Heavy Engineering, Kuat Drive Yards",
-    "pk": 53
+    "_id": 53
   },
   {
     "updatedAt": "2014-12-20T21:30:21.731Z",
@@ -792,7 +792,7 @@
     "model": "Self-Propelled Heavy Artillery",
     "cost_in_credits": "unknown",
     "manufacturer": "Rothana Heavy Engineering",
-    "pk": 54
+    "_id": 54
   },
   {
     "updatedAt": "2014-12-20T21:30:21.735Z",
@@ -807,7 +807,7 @@
     "model": "Flitknot speeder",
     "cost_in_credits": "8000",
     "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
-    "pk": 55
+    "_id": 55
   },
   {
     "updatedAt": "2014-12-20T21:30:21.739Z",
@@ -822,7 +822,7 @@
     "model": "Sheathipede-class transport shuttle",
     "cost_in_credits": "unknown",
     "manufacturer": "Haor Chall Engineering",
-    "pk": 56
+    "_id": 56
   },
   {
     "updatedAt": "2014-12-20T21:30:21.742Z",
@@ -837,7 +837,7 @@
     "model": "Nantex-class territorial defense",
     "cost_in_credits": "unknown",
     "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
-    "pk": 57
+    "_id": 57
   },
   {
     "updatedAt": "2014-12-20T21:23:49.937Z",
@@ -852,7 +852,7 @@
     "model": "Punworcca 116-class interstellar sloop",
     "cost_in_credits": "35700",
     "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
-    "pk": 58
+    "_id": 58
   },
   {
     "updatedAt": "2014-12-20T21:23:49.941Z",
@@ -867,7 +867,7 @@
     "model": "Providence-class carrier/destroyer",
     "cost_in_credits": "125000000",
     "manufacturer": "Rendili StarDrive, Free Dac Volunteers Engineering corps.",
-    "pk": 59
+    "_id": 59
   },
   {
     "updatedAt": "2014-12-20T21:30:21.745Z",
@@ -882,7 +882,7 @@
     "model": "Tsmeu-6 personal wheel bike",
     "cost_in_credits": "15000",
     "manufacturer": "Z-Gomot Ternbuell Guppat Corporation",
-    "pk": 60
+    "_id": 60
   },
   {
     "updatedAt": "2014-12-20T21:23:49.944Z",
@@ -897,7 +897,7 @@
     "model": "Theta-class T-2c shuttle",
     "cost_in_credits": "1000000",
     "manufacturer": "Cygnus Spaceworks",
-    "pk": 61
+    "_id": 61
   },
   {
     "updatedAt": "2014-12-20T21:30:21.749Z",
@@ -912,7 +912,7 @@
     "model": "Fire suppression speeder",
     "cost_in_credits": "unknown",
     "manufacturer": "unknown",
-    "pk": 62
+    "_id": 62
   },
   {
     "updatedAt": "2014-12-20T21:23:49.946Z",
@@ -927,7 +927,7 @@
     "model": "Senator-class Star Destroyer",
     "cost_in_credits": "59000000",
     "manufacturer": "Kuat Drive Yards, Allanteen Six shipyards",
-    "pk": 63
+    "_id": 63
   },
   {
     "updatedAt": "2014-12-20T21:23:49.948Z",
@@ -942,7 +942,7 @@
     "model": "J-type star skiff",
     "cost_in_credits": "unknown",
     "manufacturer": "Theed Palace Space Vessel Engineering Corps/Nubia Star Drives, Incorporated",
-    "pk": 64
+    "_id": 64
   },
   {
     "updatedAt": "2014-12-20T21:23:49.951Z",
@@ -957,7 +957,7 @@
     "model": "Eta-2 Actis-class light interceptor",
     "cost_in_credits": "320000",
     "manufacturer": "Kuat Systems Engineering",
-    "pk": 65
+    "_id": 65
   },
   {
     "updatedAt": "2014-12-20T21:23:49.953Z",
@@ -972,7 +972,7 @@
     "model": "Aggressive Reconnaissance-170 starfighte",
     "cost_in_credits": "155000",
     "manufacturer": "Incom Corporation, Subpro Corporation",
-    "pk": 66
+    "_id": 66
   },
   {
     "updatedAt": "2014-12-20T21:30:21.752Z",
@@ -987,7 +987,7 @@
     "model": "tri-fighter",
     "cost_in_credits": "20000",
     "manufacturer": "Colla Designs, Phlac-Arphocc Automata Industries",
-    "pk": 67
+    "_id": 67
   },
   {
     "updatedAt": "2014-12-20T21:23:49.956Z",
@@ -1002,7 +1002,7 @@
     "model": "Munificent-class star frigate",
     "cost_in_credits": "57000000",
     "manufacturer": "Hoersch-Kessel Drive, Inc, Gwori Revolutionary Industries",
-    "pk": 68
+    "_id": 68
   },
   {
     "updatedAt": "2014-12-20T21:30:21.756Z",
@@ -1017,7 +1017,7 @@
     "model": "Oevvaor jet catamaran",
     "cost_in_credits": "12125",
     "manufacturer": "Appazanna Engineering Works",
-    "pk": 69
+    "_id": 69
   },
   {
     "updatedAt": "2014-12-20T21:30:21.759Z",
@@ -1032,7 +1032,7 @@
     "model": "Raddaugh Gnasp fluttercraft",
     "cost_in_credits": "14750",
     "manufacturer": "Appazanna Engineering Works",
-    "pk": 70
+    "_id": 70
   },
   {
     "updatedAt": "2014-12-20T21:30:21.762Z",
@@ -1047,7 +1047,7 @@
     "model": "HAVw A6 Juggernaut",
     "cost_in_credits": "350000",
     "manufacturer": "Kuat Drive Yards",
-    "pk": 71
+    "_id": 71
   },
   {
     "updatedAt": "2014-12-20T21:30:21.765Z",
@@ -1062,7 +1062,7 @@
     "model": "NR-N99 Persuader-class droid enforcer",
     "cost_in_credits": "49000",
     "manufacturer": "Techno Union",
-    "pk": 72
+    "_id": 72
   },
   {
     "updatedAt": "2014-12-20T21:30:21.768Z",
@@ -1077,7 +1077,7 @@
     "model": "HMP droid gunship",
     "cost_in_credits": "60000",
     "manufacturer": "Baktoid Fleet Ordnance, Haor Chall Engineering",
-    "pk": 73
+    "_id": 73
   },
   {
     "updatedAt": "2014-12-20T21:23:49.959Z",
@@ -1092,7 +1092,7 @@
     "model": "Belbullab-22 starfighter",
     "cost_in_credits": "168000",
     "manufacturer": "Feethan Ottraw Scalable Assemblies",
-    "pk": 74
+    "_id": 74
   },
   {
     "updatedAt": "2014-12-20T21:23:49.961Z",
@@ -1107,7 +1107,7 @@
     "model": "Alpha-3 Nimbus-class V-wing starfighter",
     "cost_in_credits": "102500",
     "manufacturer": "Kuat Systems Engineering",
-    "pk": 75
+    "_id": 75
   },
   {
     "updatedAt": "2014-12-20T21:30:21.772Z",
@@ -1122,6 +1122,6 @@
     "model": "All Terrain Recon Transport",
     "cost_in_credits": "40000",
     "manufacturer": "Kuat Drive Yards",
-    "pk": 76
+    "_id": 76
   }
 ]

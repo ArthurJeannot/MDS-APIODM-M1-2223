@@ -16,7 +16,7 @@
     "homeworld": 9,
     "average_lifespan": "120",
     "average_height": "180",
-    "pk": 1
+    "_id": 1
   },
   {
     "updatedAt": "2014-12-20T21:36:42.139Z",
@@ -32,7 +32,7 @@
     "homeworld": null,
     "average_lifespan": "indefinite",
     "average_height": "n/a",
-    "pk": 2
+    "_id": 2
   },
   {
     "updatedAt": "2014-12-20T21:36:42.142Z",
@@ -48,7 +48,7 @@
     "homeworld": 14,
     "average_lifespan": "400",
     "average_height": "210",
-    "pk": 3
+    "_id": 3
   },
   {
     "updatedAt": "2014-12-20T21:36:42.144Z",
@@ -64,7 +64,7 @@
     "homeworld": 23,
     "average_lifespan": "unknown",
     "average_height": "170",
-    "pk": 4
+    "_id": 4
   },
   {
     "updatedAt": "2014-12-20T21:36:42.146Z",
@@ -80,7 +80,7 @@
     "homeworld": 24,
     "average_lifespan": "1000",
     "average_height": "300",
-    "pk": 5
+    "_id": 5
   },
   {
     "updatedAt": "2014-12-20T21:36:42.148Z",
@@ -96,7 +96,7 @@
     "homeworld": 28,
     "average_lifespan": "900",
     "average_height": "66",
-    "pk": 6
+    "_id": 6
   },
   {
     "updatedAt": "2014-12-20T21:36:42.151Z",
@@ -112,7 +112,7 @@
     "homeworld": 29,
     "average_lifespan": "unknown",
     "average_height": "200",
-    "pk": 7
+    "_id": 7
   },
   {
     "updatedAt": "2014-12-20T21:36:42.153Z",
@@ -128,7 +128,7 @@
     "homeworld": 31,
     "average_lifespan": "unknown",
     "average_height": "160",
-    "pk": 8
+    "_id": 8
   },
   {
     "updatedAt": "2014-12-20T21:36:42.155Z",
@@ -144,7 +144,7 @@
     "homeworld": 7,
     "average_lifespan": "unknown",
     "average_height": "100",
-    "pk": 9
+    "_id": 9
   },
   {
     "updatedAt": "2014-12-20T21:36:42.157Z",
@@ -160,7 +160,7 @@
     "homeworld": 33,
     "average_lifespan": "unknown",
     "average_height": "180",
-    "pk": 10
+    "_id": 10
   },
   {
     "updatedAt": "2014-12-20T21:36:42.160Z",
@@ -176,7 +176,7 @@
     "homeworld": 18,
     "average_lifespan": "unknown",
     "average_height": "180",
-    "pk": 11
+    "_id": 11
   },
   {
     "updatedAt": "2014-12-20T21:36:42.163Z",
@@ -192,7 +192,7 @@
     "homeworld": 8,
     "average_lifespan": "unknown",
     "average_height": "190",
-    "pk": 12
+    "_id": 12
   },
   {
     "updatedAt": "2014-12-20T21:36:42.165Z",
@@ -208,7 +208,7 @@
     "homeworld": 34,
     "average_lifespan": "91",
     "average_height": "120",
-    "pk": 13
+    "_id": 13
   },
   {
     "updatedAt": "2014-12-20T21:36:42.167Z",
@@ -224,7 +224,7 @@
     "homeworld": 35,
     "average_lifespan": "unknown",
     "average_height": "100",
-    "pk": 14
+    "_id": 14
   },
   {
     "updatedAt": "2014-12-20T21:36:42.169Z",
@@ -240,7 +240,7 @@
     "homeworld": 37,
     "average_lifespan": "unknown",
     "average_height": "200",
-    "pk": 15
+    "_id": 15
   },
   {
     "updatedAt": "2014-12-20T21:36:42.171Z",
@@ -256,7 +256,7 @@
     "homeworld": 38,
     "average_lifespan": "79",
     "average_height": "80",
-    "pk": 16
+    "_id": 16
   },
   {
     "updatedAt": "2014-12-20T21:36:42.173Z",
@@ -272,7 +272,7 @@
     "homeworld": 39,
     "average_lifespan": "unknown",
     "average_height": "100",
-    "pk": 17
+    "_id": 17
   },
   {
     "updatedAt": "2014-12-20T21:36:42.175Z",
@@ -288,7 +288,7 @@
     "homeworld": 40,
     "average_lifespan": "unknown",
     "average_height": "125",
-    "pk": 18
+    "_id": 18
   },
   {
     "updatedAt": "2014-12-20T21:36:42.177Z",
@@ -304,7 +304,7 @@
     "homeworld": 41,
     "average_lifespan": "unknown",
     "average_height": "200",
-    "pk": 19
+    "_id": 19
   },
   {
     "updatedAt": "2014-12-20T21:36:42.179Z",
@@ -320,7 +320,7 @@
     "homeworld": 43,
     "average_lifespan": "unknown",
     "average_height": "200",
-    "pk": 20
+    "_id": 20
   },
   {
     "updatedAt": "2014-12-20T21:36:42.181Z",
@@ -336,7 +336,7 @@
     "homeworld": 44,
     "average_lifespan": "70",
     "average_height": "180",
-    "pk": 21
+    "_id": 21
   },
   {
     "updatedAt": "2014-12-20T21:36:42.183Z",
@@ -352,7 +352,7 @@
     "homeworld": 45,
     "average_lifespan": "unknown",
     "average_height": "180",
-    "pk": 22
+    "_id": 22
   },
   {
     "updatedAt": "2014-12-20T21:36:42.186Z",
@@ -368,7 +368,7 @@
     "homeworld": 46,
     "average_lifespan": "unknown",
     "average_height": "unknown",
-    "pk": 23
+    "_id": 23
   },
   {
     "updatedAt": "2014-12-20T21:36:42.188Z",
@@ -384,7 +384,7 @@
     "homeworld": 47,
     "average_lifespan": "unknown",
     "average_height": "180",
-    "pk": 24
+    "_id": 24
   },
   {
     "updatedAt": "2014-12-20T21:36:42.189Z",
@@ -400,7 +400,7 @@
     "homeworld": 48,
     "average_lifespan": "86",
     "average_height": "240",
-    "pk": 25
+    "_id": 25
   },
   {
     "updatedAt": "2014-12-20T21:36:42.191Z",
@@ -416,7 +416,7 @@
     "homeworld": 49,
     "average_lifespan": "70",
     "average_height": "180",
-    "pk": 26
+    "_id": 26
   },
   {
     "updatedAt": "2014-12-20T21:36:42.193Z",
@@ -432,7 +432,7 @@
     "homeworld": 50,
     "average_lifespan": "unknown",
     "average_height": "190",
-    "pk": 27
+    "_id": 27
   },
   {
     "updatedAt": "2014-12-20T21:36:42.195Z",
@@ -448,7 +448,7 @@
     "homeworld": 11,
     "average_lifespan": "unknown",
     "average_height": "178",
-    "pk": 28
+    "_id": 28
   },
   {
     "updatedAt": "2014-12-20T21:36:42.197Z",
@@ -464,7 +464,7 @@
     "homeworld": 51,
     "average_lifespan": "unknown",
     "average_height": "180",
-    "pk": 29
+    "_id": 29
   },
   {
     "updatedAt": "2014-12-20T21:36:42.199Z",
@@ -480,7 +480,7 @@
     "homeworld": 54,
     "average_lifespan": "70",
     "average_height": "180",
-    "pk": 30
+    "_id": 30
   },
   {
     "updatedAt": "2014-12-20T21:36:42.200Z",
@@ -496,7 +496,7 @@
     "homeworld": 55,
     "average_lifespan": "75",
     "average_height": "178",
-    "pk": 31
+    "_id": 31
   },
   {
     "updatedAt": "2014-12-20T21:36:42.202Z",
@@ -512,7 +512,7 @@
     "homeworld": 10,
     "average_lifespan": "80",
     "average_height": "220",
-    "pk": 32
+    "_id": 32
   },
   {
     "updatedAt": "2014-12-20T21:36:42.204Z",
@@ -528,7 +528,7 @@
     "homeworld": 56,
     "average_lifespan": "unknown",
     "average_height": "unknown",
-    "pk": 33
+    "_id": 33
   },
   {
     "updatedAt": "2014-12-20T21:36:42.207Z",
@@ -544,7 +544,7 @@
     "homeworld": 57,
     "average_lifespan": "100",
     "average_height": "190",
-    "pk": 34
+    "_id": 34
   },
   {
     "updatedAt": "2014-12-20T21:36:42.209Z",
@@ -560,7 +560,7 @@
     "homeworld": 58,
     "average_lifespan": "94",
     "average_height": "180",
-    "pk": 35
+    "_id": 35
   },
   {
     "updatedAt": "2014-12-20T21:36:42.210Z",
@@ -576,7 +576,7 @@
     "homeworld": 59,
     "average_lifespan": "80",
     "average_height": "170",
-    "pk": 36
+    "_id": 36
   },
   {
     "updatedAt": "2014-12-20T21:36:42.212Z",
@@ -592,6 +592,6 @@
     "homeworld": 12,
     "average_lifespan": "700",
     "average_height": "190",
-    "pk": 37
+    "_id": 37
   }
 ]

@@ -2,6 +2,10 @@ const mongoose = require("mongoose");
 
 const filmSchema = new mongoose.Schema(
   {
+    _id: {
+      type: Number,
+      require: true
+    },
     title: {
       type: String,
       required: true
@@ -44,10 +48,6 @@ const filmSchema = new mongoose.Schema(
     },
     species: {
       type: [Number],
-      required: true
-    },
-    pk: {
-      type: Number,
       required: true
     }
   },
