@@ -1,9 +1,9 @@
-const mongoose = require("mongoose");
 const Transport = require("../models/transportModel.js");
 
 const getTransports = async (req, res) => {
   try {
     const transports = await Transport.find();
+
     res.json(transports);
   } catch (err) {
     res.status(500).json({ message: err.message });
@@ -12,8 +12,6 @@ const getTransports = async (req, res) => {
 
 const getTransportById = async (req, res) => {
   try {
-    if (!mongoose.Types.ObjectId.isValid(req.params.id)) return res.status(400).json({ error: 'Invalid ID type' });
-
     const transport = await Transport.findById(req.params.id);
 
     if (!transport) return res.status(404).json({ error: 'Transport not found' });
@@ -26,7 +24,14 @@ const getTransportById = async (req, res) => {
 
 const createTransport = async (req, res) => {
   try {
-    const transport = await Transport.create({ ...req.body });
+    let newId = req.body._id || 1;
+
+    if(!req.body._id) {
+      const highestIdDocument = await Transport.findOne().sort({ _id: -1 }).limit(1);
+      if (highestIdDocument) newId = highestIdDocument._id + 1;
+    }
+
+    const transport = await Transport.create({ _id : newId, ...req.body });
 
     res.status(201).json(transport);
   } catch (err) {
@@ -36,8 +41,6 @@ const createTransport = async (req, res) => {
 
 const deleteTransport = async (req, res) => {
   try {
-    if (!mongoose.Types.ObjectId.isValid(req.params.id)) return res.status(400).json({ error: 'Invalid ID type' });
-
     const transport = await Transport.findOneAndDelete({ _id: req.params.id });
 
     if (!transport) return res.status(404).json({ error: 'Transport not found' });
@@ -50,8 +53,6 @@ const deleteTransport = async (req, res) => {
 
 const updateTransport = async (req, res) => {
   try {
-    if (!mongoose.Types.ObjectId.isValid(req.params.id)) return res.status(400).json({ error: 'Invalid ID type' });
-
     const transport = await Transport.findByIdAndUpdate({ _id: req.params.id }, { ...req.body }, { new: true });
 
     if (!transport) return res.status(404).json({ error: 'Transport not found' });

@@ -1,9 +1,9 @@
-const mongoose = require("mongoose");
 const People = require("../models/peopleModel.js");
 
 const getPeoples = async (req, res) => {
   try {
     const peoples = await People.find();
+
     res.json(peoples);
   } catch (err) {
     res.status(500).json({ message: err.message });
@@ -12,8 +12,6 @@ const getPeoples = async (req, res) => {
 
 const getPeopleById = async (req, res) => {
   try {
-    if (!mongoose.Types.ObjectId.isValid(req.params.id)) return res.status(400).json({ error: 'Invalid ID type' });
-
     const people = await People.findById(req.params.id);
 
     if (!people) return res.status(404).json({ error: 'People not found' });
@@ -26,7 +24,14 @@ const getPeopleById = async (req, res) => {
 
 const createPeople = async (req, res) => {
   try {
-    const people = await People.create({ ...req.body });
+    let newId = req.body._id || 1;
+
+    if(!req.body._id) {
+      const highestIdDocument = await People.findOne().sort({ _id: -1 }).limit(1);
+      if (highestIdDocument) newId = highestIdDocument._id + 1;
+    }
+
+    const people = await People.create({ _id : newId, ...req.body });
 
     res.status(201).json(people);
   } catch (err) {
@@ -36,8 +41,6 @@ const createPeople = async (req, res) => {
 
 const deletePeople = async (req, res) => {
   try {
-    if (!mongoose.Types.ObjectId.isValid(req.params.id)) return res.status(400).json({ error: 'Invalid ID type' });
-
     const people = await People.findOneAndDelete({ _id: req.params.id });
 
     if (!people) return res.status(404).json({ error: 'People not found' });
@@ -50,8 +53,6 @@ const deletePeople = async (req, res) => {
 
 const updatePeople = async (req, res) => {
   try {
-    if (!mongoose.Types.ObjectId.isValid(req.params.id)) return res.status(400).json({ error: 'Invalid ID type' });
-
     const people = await People.findByIdAndUpdate({ _id: req.params.id }, { ...req.body }, { new: true });
 
     if (!people) return res.status(404).json({ error: 'People not found' });

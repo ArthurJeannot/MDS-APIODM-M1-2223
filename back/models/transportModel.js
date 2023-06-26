@@ -2,6 +2,10 @@ const mongoose = require("mongoose");
 
 const transportSchema = new mongoose.Schema(
   {
+    _id: {
+        type: Number,
+        require: true
+    },   
     consumables: {
       type: String,
       required: true
@@ -40,10 +44,6 @@ const transportSchema = new mongoose.Schema(
     },
     manufacturer: {
       type: String,
-      required: true
-    },
-    pk: {
-      type: Number,
       required: true
     }
   },

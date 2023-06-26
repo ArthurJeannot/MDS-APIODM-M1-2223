@@ -1,7 +1,11 @@
 const mongoose = require("mongoose");
 
 const peopleSchema = new mongoose.Schema(
-{    
+{
+    _id: {
+        type: Number,
+        require: true
+    },
     name: {
         type: String,
         required: true
@@ -36,10 +40,6 @@ const peopleSchema = new mongoose.Schema(
     },
     birth_year: {
         type: String,
-        required: true
-    },
-    pk: {
-        type: Number,
         required: true
     }
 }, {timestamps : true, versionKey: false});

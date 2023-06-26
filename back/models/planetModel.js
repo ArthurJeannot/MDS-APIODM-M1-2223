@@ -2,6 +2,10 @@ const mongoose = require("mongoose");
 
 const planetSchema = new mongoose.Schema(
   {
+    _id: {
+        type: Number,
+        require: true
+    },   
     name: {
       type: String,
       required: true
@@ -36,10 +40,6 @@ const planetSchema = new mongoose.Schema(
     },
     surface_water: {
       type: String,
-      required: true
-    },
-    pk: {
-      type: Number,
       required: true
     }
   },

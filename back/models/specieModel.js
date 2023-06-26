@@ -2,6 +2,10 @@ const mongoose = require("mongoose");
 
 const speciesSchema = new mongoose.Schema(
   {
+    _id: {
+        type: Number,
+        require: true
+    },
     name: {
       type: String,
       required: true
@@ -44,10 +48,6 @@ const speciesSchema = new mongoose.Schema(
     },
     people: {
       type: [Number],
-      required: true
-    },
-    pk: {
-      type: Number,
       required: true
     }
   },

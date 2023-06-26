@@ -1,9 +1,9 @@
-const mongoose = require("mongoose");
 const Planet = require("../models/planetModel.js");
 
 const getPlanets = async (req, res) => {
   try {
     const planets = await Planet.find();
+
     res.json(planets);
   } catch (err) {
     res.status(500).json({ message: err.message });
@@ -12,9 +12,6 @@ const getPlanets = async (req, res) => {
 
 const getPlanetById = async (req, res) => {
   try {
-    if (!mongoose.Types.ObjectId.isValid(req.params.id))
-      return res.status(400).json({ error: 'Invalid ID type' });
-
     const planet = await Planet.findById(req.params.id);
 
     if (!planet) return res.status(404).json({ error: 'Planet not found' });
@@ -27,7 +24,14 @@ const getPlanetById = async (req, res) => {
 
 const createPlanet = async (req, res) => {
   try {
-    const planet = await Planet.create({ ...req.body });
+    let newId = req.body._id || 1;
+
+    if(!req.body._id) {
+      const highestIdDocument = await Planet.findOne().sort({ _id: -1 }).limit(1);
+      if (highestIdDocument) newId = highestIdDocument._id + 1;
+    }
+
+    const planet = await Planet.create({ _id : newId, ...req.body });
 
     res.status(201).json(planet);
   } catch (err) {
@@ -37,9 +41,6 @@ const createPlanet = async (req, res) => {
 
 const deletePlanet = async (req, res) => {
   try {
-    if (!mongoose.Types.ObjectId.isValid(req.params.id))
-      return res.status(400).json({ error: 'Invalid ID type' });
-
     const planet = await Planet.findOneAndDelete({ _id: req.params.id });
 
     if (!planet) return res.status(404).json({ error: 'Planet not found' });
@@ -52,9 +53,6 @@ const deletePlanet = async (req, res) => {
 
 const updatePlanet = async (req, res) => {
   try {
-    if (!mongoose.Types.ObjectId.isValid(req.params.id))
-      return res.status(400).json({ error: 'Invalid ID type' });
-
     const planet = await Planet.findByIdAndUpdate(
       { _id: req.params.id },
       { ...req.body },

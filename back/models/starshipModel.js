@@ -2,6 +2,10 @@ const mongoose = require("mongoose");
 
 const starshipSchema = new mongoose.Schema(
   {
+    _id: {
+        type: Number,
+        require: true
+    },
     pilots: {
       type: [Number],
       required: true
@@ -16,10 +20,6 @@ const starshipSchema = new mongoose.Schema(
     },
     hyperdrive_rating: {
       type: String,
-      required: true
-    },
-    pk: {
-      type: Number,
       required: true
     }
   },
