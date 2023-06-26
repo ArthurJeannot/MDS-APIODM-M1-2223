@@ -1,0 +1,752 @@
+openapi: 3.0.0
+x-stoplight:
+  id: 319cbbd1932d6
+info:
+  title: StarWars
+  version: 1.0.0
+servers:
+  - url: 'http://localhost:8080/'
+tags:
+  - name: Peoples
+  - name: Films
+  - name: Planets
+  - name: Species
+  - name: Starships
+  - name: Transports
+  - name: Vehicles
+paths:
+  /peoples:
+    get:
+      tags:
+        - Peoples
+      summary: Get All
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '500':
+          description: Internal Server Error
+    post:
+      tags:
+        - Peoples
+      summary: Create
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                name: Din Djarin
+                gender: male
+                skin_color: fair
+                hair_color: brown
+                height: '184'
+                eye_color: black
+                mass: '80'
+                homeworld: 12
+                birth_year: unknown
+      responses:
+        '201':
+          description: Successful response
+          content:
+            application/json: {}
+        '500':
+          description: Internal Server Error
+  '/peoples/{id}':
+    get:
+      tags:
+        - Peoples
+      summary: Get One
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+    patch:
+      tags:
+        - Peoples
+      summary: Update
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                name: Leia Skywalker
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+    parameters:
+      - schema:
+          type: number
+        name: id
+        in: path
+        required: true
+    delete:
+      summary: Delete
+      operationId: ''
+      responses:
+        '204':
+          description: No Content
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+      tags:
+        - Peoples
+  /films:
+    get:
+      summary: Get All
+      operationId: ''
+      responses:
+        '200':
+          description: OK
+        '500':
+          description: Internal Server Error
+      tags:
+        - Films
+    post:
+      tags:
+        - Films
+      summary: Create
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                title: Force Awaken
+                episode_id: 7
+                starships:
+                  - 2
+                  - 3
+                  - 5
+                  - 9
+                  - 10
+                  - 11
+                  - 12
+                  - 13
+                vehicles:
+                  - 4
+                  - 6
+                  - 7
+                  - 8
+                planets:
+                  - 1
+                  - 2
+                  - 3
+                producer: 'Gary Kurtz, Rick McCallum'
+                director: George Lucas
+                release_date: '1977-05-25T00:00:00.000Z'
+                opening_crawl: "It is a period of civil war.\r\nRebel spaceships, striking\r\nfrom a hidden base, have won\r\ntheir first victory against\r\nthe evil Galactic Empire.\r\n\r\nDuring the battle, Rebel\r\nspies managed to steal secret\r\nplans to the Empire's\r\nultimate weapon, the DEATH\r\nSTAR, an armored space\r\nstation with enough power\r\nto destroy an entire planet.\r\n\r\nPursued by the Empire's\r\nsinister agents, Princess\r\nLeia races home aboard her\r\nstarship, custodian of the\r\nstolen plans that can save her\r\npeople and restore\r\nfreedom to the galaxy...."
+                characters:
+                  - 1
+                  - 2
+                  - 3
+                  - 4
+                  - 5
+                  - 6
+                  - 7
+                  - 8
+                  - 9
+                  - 10
+                  - 12
+                  - 13
+                  - 14
+                  - 15
+                  - 16
+                  - 18
+                  - 19
+                  - 81
+                species:
+                  - 1
+                  - 2
+                  - 3
+                  - 4
+                  - 5
+      responses:
+        '201':
+          description: Successful response
+          content:
+            application/json: {}
+        '500':
+          description: Internal Server Error
+  '/films/{id}':
+    get:
+      tags:
+        - Films
+      summary: Get One
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+    patch:
+      tags:
+        - Films
+      summary: Update
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                title: 'Star Wars 1: A New Hope'
+                starships:
+                  - 31
+                  - 32
+                  - 39
+                  - 40
+                  - 41
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+    parameters:
+      - schema:
+          type: number
+        name: id
+        in: path
+        required: true
+    delete:
+      summary: Delete
+      operationId: ''
+      responses:
+        '204':
+          description: No Content
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+      tags:
+        - Films
+  /planets:
+    get:
+      tags:
+        - Planets
+      summary: Get All
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '500':
+          description: Internal Server Error
+    post:
+      tags:
+        - Planets
+      summary: Create
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                climate: humid
+                surface_water: '1'
+                name: Terre
+                diameter: '10465'
+                rotation_period: '23'
+                terrain: desert
+                gravity: 1 standard
+                orbital_period: '304'
+                population: '6000000'
+      responses:
+        '201':
+          description: Successful response
+          content:
+            application/json: {}
+        '500':
+          description: Internal Server Error
+  '/planets/{id}':
+    get:
+      tags:
+        - Planets
+      summary: Get One
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+    patch:
+      tags:
+        - Planets
+      summary: Update
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                population: '200000'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '500':
+          description: Internal Server Error
+    parameters:
+      - schema:
+          type: number
+        name: id
+        in: path
+        required: true
+    delete:
+      summary: Delete
+      operationId: ''
+      responses:
+        '204':
+          description: No Content
+        '500':
+          description: Internal Server Error
+      tags:
+        - Planets
+  /species:
+    get:
+      summary: Get All
+      operationId: ''
+      responses:
+        '200':
+          description: OK
+        '500':
+          description: Internal Server Error
+      tags:
+        - Species
+    post:
+      tags:
+        - Species
+      summary: Create
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                classification: mammal
+                name: Mandalorian
+                designation: sentient
+                eye_colors: 'black, brown, blue, green, hazel, grey, amber'
+                people:
+                  - 1
+                  - 4
+                  - 5
+                  - 6
+                  - 7
+                  - 9
+                  - 10
+                  - 11
+                  - 12
+                  - 14
+                  - 18
+                  - 19
+                  - 21
+                  - 22
+                  - 25
+                  - 26
+                  - 28
+                  - 29
+                  - 32
+                  - 34
+                  - 35
+                  - 39
+                  - 42
+                  - 43
+                  - 51
+                  - 60
+                  - 61
+                  - 62
+                  - 66
+                  - 67
+                  - 68
+                  - 69
+                  - 74
+                  - 81
+                  - 82
+                skin_colors: 'caucasian, black, asian, hispanic'
+                language: Galactic Basic
+                hair_colors: 'blonde, brown, black, red'
+                homeworld: 9
+                average_lifespan: '120'
+                average_height: '180'
+      responses:
+        '201':
+          description: Successful response
+          content:
+            application/json: {}
+        '500':
+          description: Internal Server Error
+  '/species/{id}':
+    get:
+      tags:
+        - Species
+      summary: Get One
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '500':
+          description: Internal Server Error
+    patch:
+      tags:
+        - Species
+      summary: Update
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                eye_colors: 'black, brown, blue, green, hazel, grey, amber'
+                people:
+                  - 1
+                  - 4
+                  - 5
+                  - 6
+                  - 7
+                  - 9
+                  - 10
+                  - 11
+                  - 12
+                  - 14
+                  - 18
+                  - 19
+                  - 21
+                  - 22
+                  - 25
+                  - 26
+                  - 28
+                  - 29
+                  - 32
+                  - 34
+                  - 35
+                  - 39
+                  - 42
+                  - 43
+                  - 51
+                  - 60
+                  - 61
+                  - 62
+                  - 66
+                  - 67
+                  - 68
+                  - 69
+                  - 74
+                  - 81
+                  - 82
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '500':
+          description: Internal Server Error
+    parameters:
+      - schema:
+          type: number
+        name: id
+        in: path
+        required: true
+    delete:
+      summary: Delete
+      operationId: ''
+      responses:
+        '204':
+          description: No Content
+        '500':
+          description: Internal Server Error
+      tags:
+        - Species
+  /starships:
+    get:
+      tags:
+        - Starships
+      summary: Get All
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '500':
+          description: Internal Server Error
+    post:
+      tags:
+        - Starships
+      summary: Create
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                pilots:
+                  - 1
+                MGLT: '60'
+                starship_class: N-1 starfighter
+                hyperdrive_rating: '5.0'
+      responses:
+        '201':
+          description: Successful response
+          content:
+            application/json: {}
+        '500':
+          description: Internal Server Error
+  '/starships/{id}':
+    get:
+      tags:
+        - Starships
+      summary: Get One
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+    patch:
+      tags:
+        - Starships
+      summary: Update
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                hyperdrive_rating: '1.0'
+                pilots:
+                  - 1
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+    parameters:
+      - schema:
+          type: number
+        name: id
+        in: path
+        required: true
+    delete:
+      summary: Delete
+      operationId: ''
+      responses:
+        '204':
+          description: No Content
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+      tags:
+        - Starships
+  /transports:
+    get:
+      tags:
+        - Transports
+      summary: Get All
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '500':
+          description: Internal Server Error
+    post:
+      tags:
+        - Transports
+      summary: Create
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                consumables: 1 year
+                name: CR103 corvette
+                cargo_capacity: '5000000'
+                passengers: '600'
+                max_atmosphering_speed: '950'
+                crew: 30-165
+                length: '150'
+                model: CR90 corvette
+                cost_in_credits: '3500000'
+                manufacturer: Corellian Engineering Corporation
+      responses:
+        '201':
+          description: Successful response
+          content:
+            application/json: {}
+        '500':
+          description: Internal Server Error
+  '/transports/{id}':
+    get:
+      tags:
+        - Transports
+      summary: Get One
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+    patch:
+      tags:
+        - Transports
+      summary: Update
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                consumables: 2 years
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+    parameters:
+      - schema:
+          type: number
+        name: id
+        in: path
+        required: true
+    delete:
+      summary: Delete
+      operationId: ''
+      responses:
+        '204':
+          description: No Content
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+      tags:
+        - Transports
+  /vehicles:
+    get:
+      tags:
+        - Vehicles
+      summary: Get All
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '500':
+          description: Internal Server Error
+    post:
+      tags:
+        - Vehicles
+      summary: Create
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                vehicle_class: caterpillar
+                pilots:
+                  - 1
+      responses:
+        '201':
+          description: Successful response
+          content:
+            application/json: {}
+        '500':
+          description: Internal Server Error
+  '/vehicles/{id}':
+    get:
+      tags:
+        - Vehicles
+      summary: Get One
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+    patch:
+      tags:
+        - Vehicles
+      summary: Update
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                pilots:
+                  - 1
+                  - 4
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+      operationId: patch-vehicles-id
+    parameters:
+      - schema:
+          type: number
+        name: id
+        in: path
+        required: true
+    delete:
+      summary: Delete
+      operationId: ''
+      responses:
+        '204':
+          description: No Content
+        '404':
+          description: Not Found
+        '500':
+          description: Internal Server Error
+      tags:
+        - Vehicles
+components:
+  responses: {}

@@ -3,6 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
+const cors = require("cors");
 const peoples = require("./back/routes/peoples.js");
 const films = require("./back/routes/films.js");
 const planets = require("./back/routes/planets.js");
@@ -25,6 +26,7 @@ async function main() {
   .then(() => {
     console.log("Connection a la BDD réussi");
 
+    app.use(cors());
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: true }));
 
