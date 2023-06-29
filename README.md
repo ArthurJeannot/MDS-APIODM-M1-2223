@@ -1,6 +1,6 @@
 - Lancer le projet: `node .\index.js`
-- Emplacement de la documentation swagger: `/ressources/StarWars.OpenAPI.yml` 
-- Port par défaut : 8080 > si changement : Changer dans `index.js` l.16 & Changer dans `StarWars.OpenAPI.yml` l.8
+- Emplacement de la documentation swagger: `/ressources/StarWars.yml` 
+- Port par défaut : 8080 > si changement : Changer dans `index.js` l.16 & Changer dans `StarWars.yml` l.8
 
 -----
 
