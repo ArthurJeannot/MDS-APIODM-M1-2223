@@ -1,42 +1,35 @@
-# MDS-APIODM-M1-2223
+- Lancer le projet: `node .\index.js`
+- Emplacement de la documentation swagger: `/ressources/StarWars.OpenAPI.yml` 
+- Port par défaut : 8080 > si changement : Changer dans `index.js` l.16 & Changer dans `StarWars.OpenAPI.yml` l.8
 
-Réalisation d'un API sur Star Wars
-- Respect du modèle de Richardson
-- Respect des 5 règles du REST
-- Techs : node / express / mongo (mongoose obligatoire)
+-----
 
-travail en solo
+## Model de maturité de Richardson 
+
+**Définition**
+
+Le Modèle de Maturité de Richardson, également connu sous le nom de Web Service Maturity Heuristic, est un modèle qui évalue le niveau de maturité des services Web. Il est basé sur plusieurs niveaux de progression :
+
+- Niveau 0 : The Swamp of POX (Plain Old XML)
+A ce niveau, les services web ne suivent pas les principes fondamentaux de l'architecture RESTful. Au lieu de cela, ils utilisent des protocoles basés sur SOAP (Simple Object Access Protocol) ou d'autres technologies similaires pour la communication. Une API a ce niveau n'est donc pas considéré comme RESTful.
+
+- Niveau 1 : Ressources
+À ce niveau, l'API respecte le modèle de données, et chaque ressource est identifiée par une URL. Par exemple, les requêtes peuvent être formulées comme GET `/peoples/14`. Cela permet de manipuler des ressources spécifiques de manière claire.
+
+- Niveau 2 : Verbes HTTP
+Ce niveau consiste à utiliser des méthodes HTTP autres que GET et POST pour indiquer l'action souhaitée, telles que PATCH, PUT et DELETE. Les codes de statut HTTP sont utilisés pour résumer le résultat de l'opération, tels que 200 (OK), 201 (Created), 204 (No Content pour les suppressions), 400 (Bad Request), 401 (Unauthorized), 403 (Forbidden), 404 (Not Found), 409 (Conflict), etc.
+
+- Niveau 3 : Contrôles Hypermedia
+Ce niveau met en avant l'utilisation de l'hypermedia, conformément à la thèse de Fielding. L'idée est d'incorporer une logique hypermédia similaire à celle du HTML dans les API REST. Cela se traduit principalement par la présence de liens dans les ressources, permettant de définir les relations avec d'autres ressources. Ainsi, l'API REST devient découvrable, facilitant la navigation et la découverte des fonctionnalités.
 
 
-## Objectif : 
+**Application dans le projet:**
 
-1. réintégrer l'ensemble des données dans Mongo, puis proposer des routes pour les redistribuer.
-2. Documenter votre API avec SWAGGER
-3. Mettre en place une authentification avec JWT et les routes qui vont avec
+Le Niveau 1 et 2 a été respecté avec le système de route d'express. 
 
+- Les endpoints sont défini dans index.js, l33 à l39. 
+- Les routers sont eux créer dans les fichier du dossier `/back/routes` et utilisent les méthodes HTTP appropriés (GET, POST, PATCH, DELETE).
+- Les statuts de réussite sont envoyé en fonction du résultat depuis les controllers de `/back/controller`, par exemple en cas de réussite, 200 (par défaut) est renvoyé quand un body est envoyé par la réponse, 204 quand il n'y a pas de body ou encore 201 quand la création a marché.
+- La majorité des messages d'erreurs sont gérer par défaut par Mongoose, avec également l'utilisation de schéma mongoose dans `back/models` pour la validation des champs par exemple. J'ai juste ajouter des erreurs 500 en cas de problème internes dans les controller.
 
-## Liens utiles
-
-- L'api : https://swapi.dev/
-- Richardson : https://guide-api-rest.marmicode.fr/api-rest/le-modele-de-maturite-de-richardson (SWAPI intègre déjà le modèle de richardson !)
-- https://editor.swagger.io/
-- https://www.postman.com/
-
-## Dates cours : 
-- 26/10 jour entier
-- 18/01 matin
-- 20/03 aprem
-- 26/05 matin
-- 05/06 aprem
-- 29/06 jour entier
-
-## Barème d'évaluation
-- JWT est implémenté et l'ensemble des routes autre que auth sont bloquées
-- les 5 routes du modèle REST sont implémentées pour la ressource PEOPLE (Create, Read ALL, Read ONE, Update, Delete)
-- les 5 routes du modèle REST sont implémentées pour la ressource PLANETS (Create, Read ALL, Read ONE, Update, Delete)
-- les 5 routes du modèle REST sont implémentées pour la ressource FILMS (Create, Read ALL, Read ONE, Update, Delete)
-- les 5 routes du modèle REST sont implémentées pour la ressource SPECIES (Create, Read ALL, Read ONE, Update, Delete)
-- les 5 routes du modèle REST sont implémentées pour la ressource VEHICLES (Create, Read ALL, Read ONE, Update, Delete)
-- les 5 routes du modèle REST sont implémentées pour la ressource STARSHIPS (Create, Read ALL, Read ONE, Update, Delete)
-- un fichier readme est présent et explique ce qu'est le modèle de richardson et comment vous l'avez respecté
-- un fichier swagger.json doit être présent et contenir votre documentation SWAGGER (doit fonctionner sur https://editor.swagger.io/)
+Le Niveau 3 a été respecté en ajoutant les hrefs avant l'envoi du json de la réponse dans les controllers, grace a la méthode `addHATEOASlinks` dans les collection qui ont des tableaux avec des ids d'autres collection. La méthode permet de transformer les tableaux  d'ID en tableau d'objet json, avec l'id et un href pour permettre la navigations entre les endpoints.
